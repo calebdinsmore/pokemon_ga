@@ -1,0 +1,28 @@
+List of decisions at any given point in battle:
+Fight:
+	Use Move 1
+	Use Move 2
+	Use Move 3
+	Use Move 4
+Switch:
+	Switch to Pokemon 1
+	Switch to Pokemon 2
+	Switch to Pokemon 3
+	Switch to Pokemon 4
+	Switch to Pokemon 5
+
+Factors to consider:
+Opponent Pokemon type
+Type of Move 1
+Type of Move 2
+Type of Move 3
+Type of Move 4
+Damage of Move 1
+Damage of Move 2
+Damage of Move 3
+Damage of Move 4
+Type of Pokemon 1 (Party)
+Type of Pokemon 2
+Type of Pokemon 3
+Type of Pokemon 4
+Type of Pokemon 5
