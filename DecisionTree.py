@@ -1,4 +1,4 @@
-# pylint disable=C
+# pylint: disable=C
 """Experimenting with decision tree idea"""
 
 class DecisionTree(object):
