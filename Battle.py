@@ -1,99 +1,108 @@
 # pylint: disable=C
 from Trainer import Trainer
-from random import *
-
-f = open('json/moves.json')
-moveDict = eval(''.join(f.readlines()))
-
-f.close()
-f = open('json/types.json')
-typeDict = eval(''.join(f.readlines()))
+from Utils import moveDict
 
 class BattleSim(object):
     def __init__(self, team_one, team_two):
         self.team_one = team_one
         self.team_two = team_two
+        self.t1_selected_poke = None
+        self.t2_selected_poke = None
 
     def game_over(self):
         team_one_dead = True
         team_two_dead = True
         for pokemon in self.team_one.pokemon:
-            if pokemon.current_hp != 0:
+            if pokemon.current_hp > 0:
                 team_one_dead = False
                 break
         for pokemon in self.team_two.pokemon:
-            if pokemon.current_hp != 0:
+            if pokemon.current_hp > 0:
                 team_two_dead = False
                 break
         return team_one_dead or team_two_dead
 
     def execute_move(self, team_one_choice, team_one_pokemon, team_two_pokemon):
-        move_one = moveDict[team_one_choice]
-
-        total_type_eff = 0
-        move_type = str(move_one["type"])
-        if len(team_two_pokemon.types) == 2:
-            type_one = team_two_pokemon.types[0]
-            type_two = team_two_pokemon.types[1]
-            effectiveness_one = typeDict[move_type]["offense"][str(type_one)]
-            effectiveness_two = typeDict[move_type]["offense"][str(type_two)]
-            total_type_eff = effectiveness_one * effectiveness_two
-        else:
-            type_one = team_two_pokemon.types[0]
-            total_type_eff = typeDict[move_type]["offense"][str(type_one)]
-
-        if move_type in team_one_pokemon.types:
-            STAB = 1.5
-        else:
-            STAB = 1
-
-        random_mod = randrange(85, 100) / 100
-
-        critical_hit = 1
-        if random() * 100 <= 6.25:
-            critical_hit = 1.5
-
-        modifier = STAB * total_type_eff * critical_hit * random_mod
-
-        # TODO: Make critical work
-        damage = (12/250) * ((team_one_pokemon.attack/team_two_pokemon.defense) * move_one["power"] + 2) * modifier
-        damage = int(damage)
-        print("Move did %d damage!" % (damage))
+        damage = self.team_one.calculate_damage(team_one_choice, team_one_pokemon, team_two_pokemon)
+        print("%s used %s! It did %d damage!" % (team_one_pokemon.name, moveDict[team_one_choice]["name"], damage))
 
         team_two_pokemon.current_hp -= damage
-        team_one_pokemon.moves[team_one_choice]["current_pp"] -= 1
+        if team_one_choice == "165": #Struggle
+            team_one_pokemon.current_hp -= team_one_pokemon.total_hp * 0.25
+        else:
+            team_one_pokemon.moves[team_one_choice]["current_pp"] -= 1
+
+    def switch_pokemon(self, team,  current_poke):
+        idx = (team.pokemon.index(current_poke) + 1) % 6
+
+        while team.pokemon[idx].current_hp <= 0 and not self.game_over():
+            idx = (idx + 1) % 6
+
+        return team.pokemon[idx]
 
 
+    def perform_move_exchange_t1_t2(self, team_one_move, team_two_move):
+        if self.t1_selected_poke.current_hp > 0:
+            self.execute_move(team_one_move, self.t1_selected_poke, self.t2_selected_poke)
+        else:
+            self.t1_selected_poke = self.switch_pokemon(self.team_one, self.t1_selected_poke)
+        if self.t2_selected_poke.current_hp > 0:
+            self.execute_move(team_two_move, self.t2_selected_poke, self.t1_selected_poke)
+        else:
+            self.t2_selected_poke = self.switch_pokemon(self.team_two, self.t2_selected_poke)
+        return self.t1_selected_poke, self.t2_selected_poke
+
+    def perform_move_exchange_t2_t1(self, team_two_move, team_one_move):
+        if self.t2_selected_poke.current_hp > 0:
+            self.execute_move(team_two_move, self.t2_selected_poke, self.t1_selected_poke)
+        else:
+            self.t2_selected_poke = self.switch_pokemon(self.team_two, self.t2_selected_poke)
+        if self.t1_selected_poke.current_hp > 0:
+            self.execute_move(team_one_move, self.t1_selected_poke, self.t2_selected_poke)
+        else:
+            self.t1_selected_poke = self.switch_pokemon(self.team_one, self.t1_selected_poke)
+        return self.t2_selected_poke, self.t1_selected_poke
 
     def run_battle(self):
-        current_pokemon_team_one = self.team_one.pokemon[0]
-        current_pokemon_team_two = self.team_two.pokemon[0]
+        self.t1_selected_poke = self.team_one.pokemon[0]
+        self.t2_selected_poke = self.team_two.pokemon[0]
         while not self.game_over():
-            team_one_choice, team_one_move = self.team_one.get_move(current_pokemon_team_one, current_pokemon_team_two)
-            team_two_choice, team_two_move = self.team_two.get_move(current_pokemon_team_two, current_pokemon_team_one)
+            team_one_choice, team_one_move = self.team_one.get_move(self.t1_selected_poke, self.t2_selected_poke)
+            team_two_choice, team_two_move = self.team_two.get_move(self.t2_selected_poke, self.t1_selected_poke)
 
             if team_one_choice == team_two_choice and team_one_choice == "move":
                 if moveDict[team_one_move]["priority"] == moveDict[team_two_move]["priority"]:
-                    if current_pokemon_team_one.speed > current_pokemon_team_two.speed:
-                        self.execute_move(team_one_move, current_pokemon_team_one, current_pokemon_team_two)
+                    if self.t1_selected_poke.speed > self.t2_selected_poke.speed:
+                        self.t1_selected_poke, self.t2_selected_poke = self.perform_move_exchange_t1_t2(team_one_move, team_two_move)
                     else:
-                        self.execute_move(team_two_move, current_pokemon_team_two, current_pokemon_team_one)
+                        self.t2_selected_poke, self.t1_selected_poke = self.perform_move_exchange_t2_t1(team_two_move, team_one_move)
                 else:
                     if moveDict[team_one_move]["priority"] > moveDict[team_two_move]["priority"]:
-                        self.execute_move(team_one_move, current_pokemon_team_one, current_pokemon_team_two)
+                        self.t1_selected_poke, self.t2_selected_poke = self.perform_move_exchange_t1_t2(team_one_move, team_two_move)
                     else:
-                        self.execute_move(team_two_move, current_pokemon_team_two, current_pokemon_team_one)
+                        self.t2_selected_poke, self.t1_selected_poke = self.perform_move_exchange_t2_t1(team_two_move, team_one_move)
             else: #one of them is switching
-            # TODO: Make switching happen
-                pass
+                if team_one_choice != team_two_choice and team_one_choice == "switch":
+                    self.t1_selected_poke = team_one_move
+                    print("Team One switched to %s!" % (team_one_move.name))
+                    self.execute_move(team_two_move, self.t2_selected_poke, self.t1_selected_poke)
+                elif team_one_choice != team_two_choice and team_two_choice == "switch":
+                    self.t2_selected_poke = team_two_move
+                    print("Team Two switched to %s!" % (team_two_move.name))
+                    self.execute_move(team_one_move, self.t1_selected_poke, self.t2_selected_poke)
+                else:
+                    self.t1_selected_poke = team_one_move
+                    self.t2_selected_poke = team_two_move
+        return self.team_one.get_total_health_percentage(), self.team_two.get_total_health_percentage()
 
 
 
 
 
-team_one = Trainer()
-team_two = Trainer()
+team_one = Trainer(manual=False)
+team_two = Trainer(manual=False)
 
 bs = BattleSim(team_one, team_two)
 
-bs.run_battle()
+print("Battle Results:")
+print(bs.run_battle())
