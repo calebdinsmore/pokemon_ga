@@ -3,7 +3,8 @@
 import generateTeam
 from operator import itemgetter
 import random
-from Utils import moveDict, typeDict
+from Utils import moveDict, typeDict, pokeDict, pokeList, pokeListSansUbers, uberList
+from Pokemon import Pokemon
 
 class Trainer(object):
     def __init__(self, pokemon=None, manual=True):
@@ -12,6 +13,26 @@ class Trainer(object):
         else:
             self.pokemon = pokemon
         self.manual = manual
+        self.fitness = None
+
+    def tryMutation(self, move_mutation_rate, poke_mutation_rate):
+        do_poke_mutation = random.random() < poke_mutation_rate
+        do_move_mutation = random.random() < move_mutation_rate
+
+        if do_poke_mutation:
+            new_pokemon_key = random.choice(pokeList)
+            poke_object = Pokemon(new_pokemon_key, pokeDict[new_pokemon_key]["name"], pokeDict[new_pokemon_key]["types"], pokeDict[new_pokemon_key]["stats"], pokeDict[new_pokemon_key]["moves"])
+            poke_object.generateMoves()
+            poke_to_mutate = random.choice(self.pokemon)
+
+            poke_object.combineMoves(poke_to_mutate)
+        if do_move_mutation:
+            poke_to_mutate = random.choice(self.pokemon)
+            poke_to_mutate.doMoveMutation()
+
+    def resetPokemon(self):
+        for pokemon in self.pokemon:
+            pokemon.resetPokemon()
 
     def calculate_damage(self, move, pokemon_one, pokemon_two):
         move_one = moveDict[move]
@@ -41,8 +62,17 @@ class Trainer(object):
 
         modifier = STAB * total_type_eff * critical_hit * random_mod
 
-        # TODO: Make critical work
-        damage = (12/250) * ((pokemon_one.attack/pokemon_two.defense) * move_one["power"] + 2) * modifier
+        attack_stat = 0
+        defense_stat = 0
+        if moveDict[move]["damage_class"] == "physical":
+            attack_stat = pokemon_one.attack
+            defense_stat = pokemon_two.attack
+        else:
+            attack_stat = pokemon_one.sp_attack
+            defense_stat = pokemon_two.sp_defense
+
+
+        damage = (12/250) * ((attack_stat/defense_stat) * move_one["power"] + 2) * modifier
         damage = int(damage)
         return damage
 
@@ -50,7 +80,10 @@ class Trainer(object):
         hp = 0
         total_hp = 0
         for pokemon in self.pokemon:
-            hp += pokemon.current_hp
+            if pokemon.current_hp < 0:
+                pass
+            else:
+                hp += pokemon.current_hp
             total_hp += pokemon.total_hp
         return hp/total_hp
 
@@ -143,3 +176,17 @@ Enemy Pokemon in Play: %s
             moves_possible = sorted(moves_possible, key=itemgetter(1), reverse=True)
 
             return moves_possible[0][2], moves_possible[0][0]
+
+    def printTeam(self):
+        header_string = "%15s  %15s  %15s  %15s  %15s  %15s  %15s" % ("Name", "Type 1", "Type 2", "Move 1", "Move 2", "Move 3", "Move 4")
+        print(header_string)
+        for pokemon in self.pokemon:
+            poke_string = "%15s" % (pokemon.name)
+            for typeKey in pokemon.types:
+                str_type = str(typeKey)
+                poke_string += "  %15s" % (typeDict[str_type]["name"])
+            if len(pokemon.types) == 1:
+                poke_string += "  %15s" % (" ")
+            for moveKey in pokemon.moves:
+                poke_string += "  %15s" % (pokemon.moves[moveKey]["name"] + "-" + str(pokemon.moves[moveKey]["power"]))
+            print(poke_string)

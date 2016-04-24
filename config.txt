@@ -1,0 +1,6 @@
+poke_mutation_rate= 0.015 #Must have a space between all keys and values
+move_mutation_rate= 0.015
+crossover_rate= .7
+points_of_crossover= 1
+population_size= 50
+draw_graph= False

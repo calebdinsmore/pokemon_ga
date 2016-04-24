@@ -1,6 +1,8 @@
 # pylint: disable=C
 from Trainer import Trainer
-from Utils import moveDict
+from Utils import moveDict, printDebug
+
+DEBUG = False
 
 class BattleSim(object):
     def __init__(self, team_one, team_two):
@@ -24,7 +26,7 @@ class BattleSim(object):
 
     def execute_move(self, team_one_choice, team_one_pokemon, team_two_pokemon):
         damage = self.team_one.calculate_damage(team_one_choice, team_one_pokemon, team_two_pokemon)
-        print("%s used %s! It did %d damage!" % (team_one_pokemon.name, moveDict[team_one_choice]["name"], damage))
+        printDebug("%s used %s! It did %d damage!" % (team_one_pokemon.name, moveDict[team_one_choice]["name"], damage), DEBUG)
 
         team_two_pokemon.current_hp -= damage
         if team_one_choice == "165": #Struggle
@@ -84,11 +86,11 @@ class BattleSim(object):
             else: #one of them is switching
                 if team_one_choice != team_two_choice and team_one_choice == "switch":
                     self.t1_selected_poke = team_one_move
-                    print("Team One switched to %s!" % (team_one_move.name))
+                    printDebug("Team One switched to %s!" % (team_one_move.name), DEBUG)
                     self.execute_move(team_two_move, self.t2_selected_poke, self.t1_selected_poke)
                 elif team_one_choice != team_two_choice and team_two_choice == "switch":
                     self.t2_selected_poke = team_two_move
-                    print("Team Two switched to %s!" % (team_two_move.name))
+                    printDebug("Team Two switched to %s!" % (team_two_move.name), DEBUG)
                     self.execute_move(team_one_move, self.t1_selected_poke, self.t2_selected_poke)
                 else:
                     self.t1_selected_poke = team_one_move
@@ -99,10 +101,10 @@ class BattleSim(object):
 
 
 
-team_one = Trainer(manual=False)
-team_two = Trainer(manual=False)
-
-bs = BattleSim(team_one, team_two)
-
-print("Battle Results:")
-print(bs.run_battle())
+# team_one = Trainer(manual=False)
+# team_two = Trainer(manual=False)
+#
+# bs = BattleSim(team_one, team_two)
+#
+# printDebug("Battle Results:")
+# printDebug(bs.run_battle())
