@@ -28,26 +28,42 @@ class Pokemon(object):
         else:
             self.generateMoves()
 
+    def canSwitchToThisFrom(self, current_pokemon):
+        return self.current_hp > 0 and self != current_pokemon
+
     def doMoveMutation(self):
         move_to_replace = random.choice(list(self.moves.keys()))
         del self.moves[move_to_replace]
 
         new_move = str(random.choice(self.valid_moves))
+        cap = 0
+        while (moveDict[new_move]["power"] == 0 and cap <= 15) or new_move in self.moves:
+            new_move = str(random.choice(self.valid_moves))
+            cap += 1
         self.moves[new_move] = moveDict[new_move]
         self.moves[new_move]["current_pp"] = self.moves[new_move]["pp"]
 
     def generateMoves(self):
         self.moves = {}
         for _ in range(4):
-            if len(pokeDict[self.id]["moves"]) < 4:
+            if len(pokeDict[self.id]["moves"]) <= 4:
                 for move_id in pokeDict[self.id]["moves"]:
                     move_id_str = str(move_id)
                     self.moves[move_id_str] = moveDict[move_id_str]
                     self.moves[move_id_str]["current_pp"] = self.moves[move_id_str]["pp"]
             else:
-                next_move = str(random.choice(pokeDict[self.id]["moves"]))
-                while next_move in self.moves:
-                    next_move = str(random.choice(pokeDict[self.id]["moves"]))
+                next_move = str(random.choice(self.valid_moves))
+                cap = 0
+                while (moveDict[next_move]["power"] == 0 and cap <= 25) or next_move in self.moves:
+                    next_move = str(random.choice(self.valid_moves))
+                    # print("Next move option: ", moveDict[next_move]["name"])
+                    # print("Power option: ", moveDict[next_move]["power"])
+                    cap += 1
+                # print("Next move choice: ", moveDict[next_move]["name"])
+                # print("Power choice: ", moveDict[next_move]["power"])
+                # print("Cap: ", cap)
+                # print("Pokemon: ", self.name)
+                # input()
                 self.moves[next_move] = moveDict[next_move]
                 self.moves[next_move]["current_pp"] = self.moves[next_move]["pp"]
 

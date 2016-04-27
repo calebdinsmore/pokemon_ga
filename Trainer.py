@@ -6,6 +6,8 @@ import random
 from Utils import moveDict, typeDict, pokeDict, pokeList, pokeListSansUbers, uberList
 from Pokemon import Pokemon
 
+DEBUG = False
+
 class Trainer(object):
     def __init__(self, pokemon=None, manual=True):
         if not pokemon:
@@ -14,6 +16,18 @@ class Trainer(object):
             self.pokemon = pokemon
         self.manual = manual
         self.fitness = None
+        self.move_types = {}
+        self.switched_last_turn = False
+
+    def populateMoveTypesDict(self):
+        for pokemon in self.pokemon:
+            for move_key in pokemon.moves:
+                move_type_string = str(pokemon.moves[move_key]["type"])
+                power_greater_than_zero = moveDict[move_key]["power"] > 0
+                if power_greater_than_zero and move_type_string not in self.move_types:
+                    self.move_types[move_type_string] = [pokemon]
+                elif power_greater_than_zero and move_type_string in self.move_types:
+                    self.move_types[move_type_string].append(pokemon)
 
     def tryMutation(self, move_mutation_rate, poke_mutation_rate):
         do_poke_mutation = random.random() < poke_mutation_rate
@@ -33,6 +47,8 @@ class Trainer(object):
     def resetPokemon(self):
         for pokemon in self.pokemon:
             pokemon.resetPokemon()
+        self.move_types = {}
+        self.populateMoveTypesDict()
 
     def calculate_damage(self, move, pokemon_one, pokemon_two):
         move_one = moveDict[move]
@@ -112,6 +128,12 @@ Enemy Pokemon in Play: %s
                 total_effectiveness *= typeDict[str(poke_type_1)]["offense"][str(poke_type_2)]
         return total_effectiveness
 
+    def get_move_type_effectiveness(self, move_type, enemy_pokemon):
+        total_effectiveness = 1
+        for poke_type in enemy_pokemon.types:
+            total_effectiveness *= typeDict[move_type]["offense"][str(poke_type)]
+        return total_effectiveness
+
     def have_better_pokemon(self, current_pokemon, enemy_pokemon):
         for pokemon in self.pokemon:
             if pokemon == current_pokemon or pokemon.current_hp <= 0:
@@ -149,17 +171,21 @@ Enemy Pokemon in Play: %s
 
                 return "switch", poke_choice
         else: # AI
+            if DEBUG:
+                self.display_current_pokemon(current_pokemon, enemy_pokemon)
             moves_possible = []
             most_damaging = (None, None)
             for moveKey in current_pokemon.moves:
+                damage = self.calculate_damage(str(moveKey), current_pokemon, enemy_pokemon)
                 if current_pokemon.moves[moveKey]["current_pp"] <= 0:
                     pass
                 else:
-                    damage = self.calculate_damage(str(moveKey), current_pokemon, enemy_pokemon)
                     if most_damaging[0] == None or damage >= most_damaging[1]:
-                        most_damaging = (str(moveKey), damage)
+                        most_damaging = [str(moveKey), damage]
             if most_damaging[0] == None: # Struggle
-                most_damaging = ("165", self.calculate_damage("165", current_pokemon, enemy_pokemon))
+                most_damaging = ["165", self.calculate_damage("165", current_pokemon, enemy_pokemon)]
+            if self.get_move_type_effectiveness(str(moveDict[most_damaging[0]]["type"]), enemy_pokemon) >= 2:
+                most_damaging[1] += 15
             moves_possible.append([most_damaging[0], most_damaging[1], "move"])
 
             should_switch = False
@@ -171,10 +197,28 @@ Enemy Pokemon in Play: %s
                 should_switch, better_poke = self.have_better_pokemon(current_pokemon, enemy_pokemon)
 
             if should_switch:
-                moves_possible.append([better_poke, 20, "switch"])
+                moves_possible.append([better_poke, 10, "switch"])
+
+            for move_type_key in self.move_types:
+                if self.get_move_type_effectiveness(move_type_key, enemy_pokemon) >= 2:
+                    switch_move = [random.choice(self.move_types[move_type_key]), 15, "switch"]
+                    if not switch_move[0].canSwitchToThisFrom(current_pokemon):
+                        pass
+                    else:
+                        moves_possible.append(switch_move)
 
             moves_possible = sorted(moves_possible, key=itemgetter(1), reverse=True)
 
+            if self.switched_last_turn and moves_possible[0][2] == "switch":
+                moves_possible.pop(0)
+                while True:
+                    if moves_possible[0][2] == "switch":
+                        moves_possible.pop(0)
+                    else:
+                        self.switched_last_turn = False
+                        break
+            if moves_possible[0][2] == "switch":
+                self.switched_last_turn = True
             return moves_possible[0][2], moves_possible[0][0]
 
     def printTeam(self):

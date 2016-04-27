@@ -95,6 +95,7 @@ class BattleSim(object):
                 else:
                     self.t1_selected_poke = team_one_move
                     self.t2_selected_poke = team_two_move
+            # input()
         return self.team_one.get_total_health_percentage(), self.team_two.get_total_health_percentage()
 
 

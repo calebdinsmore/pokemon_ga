@@ -107,7 +107,7 @@ class PokeGA(object):
             for trainer in self.chromosomes:
                 poke_ids.append(trainer.pokemon[geneIdx].id)
             poke_ids.sort()
-            self.convergence_array[geneIdx] = poke_ids.count(poke_ids[9]) / self.population_size >= 0.92
+            self.convergence_array[geneIdx] = poke_ids.count(poke_ids[self.population_size // 2]) / self.population_size >= 0.92
         if self.convergence_array.count(True) == 6:
             return True
         else:
@@ -130,7 +130,8 @@ class PokeGA(object):
         fittest.printTeam()
         print(fittest.fitness)
 
-team_config = ["385", "442", "382", "202", "150", "483"]
+# team_config = {"385": ["Dazzling Gleam", "Iron Head", "Ice Punch", "Signal Beam"], "442", "382", "202", "150", "483"}
+team_config = ["649", "491", "382", "249", "487", "658"]
 
 opposing_team_list = []
 uber_team = []
@@ -138,6 +139,7 @@ for poke_id in team_config:
     uber_team.append(Pokemon(poke_id, pokeDict[poke_id]["name"], pokeDict[poke_id]["types"], pokeDict[poke_id]["stats"], pokeDict[poke_id]["moves"]))
 
 opposing_team_list.append(Trainer(uber_team, manual=False))
+opposing_team_list[0].populateMoveTypesDict()
 
 pg = PokeGA(opposing_team_list)
 pg.runAlgorithm()
