@@ -4,6 +4,7 @@ from Trainer import Trainer
 from Battle import BattleSim
 from Pokemon import Pokemon
 from Utils import pokeDict
+from Plotter import Plotter
 
 import random
 
@@ -122,12 +123,18 @@ class PokeGA(object):
 
     def runAlgorithm(self):
         self.generateStartingPopulation()
+        plotter = Plotter()
         while self.current_generation < self.epoch_limit and not self.checkForConvergence():
             self.calculateAndAssignFitness()
+            if self.draw_graph:
+                fittest = self.getFittest()
+                plotter.addPoint(self.current_generation, fittest.fitness)
             self.performTournamentAndMating()
 
         fittest = self.getFittest()
         fittest.printTeam()
+        if self.draw_graph:
+            plotter.showPlot()
         print(fittest.fitness)
 
 # team_config = {"385": ["Dazzling Gleam", "Iron Head", "Ice Punch", "Signal Beam"], "442", "382", "202", "150", "483"}
