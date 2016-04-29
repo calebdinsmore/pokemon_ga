@@ -78,8 +78,12 @@ class PokeGA(object):
         offspring_one_pokemon = parent_one.pokemon[:crossoverPoint] + parent_two.pokemon[crossoverPoint:]
         offspring_two_pokemon = parent_two.pokemon[:crossoverPoint] + parent_one.pokemon[crossoverPoint:]
 
-        parent_one.pokemon = offspring_one_pokemon
-        parent_two.pokemon = offspring_two_pokemon
+        fittest = self.getFittest()
+
+        if parent_one != fittest:
+            parent_one.pokemon = offspring_one_pokemon
+        if parent_two != fittest:
+            parent_two.pokemon = offspring_two_pokemon
 
         return parent_one, parent_two
 
@@ -94,8 +98,10 @@ class PokeGA(object):
             offspring_one.resetPokemon()
             offspring_two.resetPokemon()
 
-            offspring_one.tryMutation(self.move_mutation_rate, self.poke_mutation_rate)
-            offspring_two.tryMutation(self.move_mutation_rate, self.poke_mutation_rate)
+            if offspring_one != parent_one: # offspring is fittest
+                offspring_one.tryMutation(self.move_mutation_rate, self.poke_mutation_rate)
+            if offspring_two != parent_two:
+                offspring_two.tryMutation(self.move_mutation_rate, self.poke_mutation_rate)
 
             next_generation.append(offspring_one)
             next_generation.append(offspring_two)
@@ -108,7 +114,7 @@ class PokeGA(object):
             for trainer in self.chromosomes:
                 poke_ids.append(trainer.pokemon[geneIdx].id)
             poke_ids.sort()
-            self.convergence_array[geneIdx] = poke_ids.count(poke_ids[self.population_size // 2]) / self.population_size >= 0.92
+            self.convergence_array[geneIdx] = poke_ids.count(poke_ids[self.population_size // 2]) / self.population_size >= 0.965
         if self.convergence_array.count(True) == 6:
             return True
         else:
