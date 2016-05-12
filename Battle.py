@@ -2,14 +2,13 @@
 from Trainer import Trainer
 from Utils import moveDict, printDebug
 
-DEBUG = False
-
 class BattleSim(object):
-    def __init__(self, team_one, team_two):
+    def __init__(self, team_one, team_two, debug=False):
         self.team_one = team_one
         self.team_two = team_two
         self.t1_selected_poke = None
         self.t2_selected_poke = None
+        self.debug = debug
 
     def game_over(self):
         team_one_dead = True
@@ -26,7 +25,9 @@ class BattleSim(object):
 
     def execute_move(self, team_one_choice, team_one_pokemon, team_two_pokemon):
         damage = self.team_one.calculate_damage(team_one_choice, team_one_pokemon, team_two_pokemon)
-        printDebug("%s used %s! It did %d damage!" % (team_one_pokemon.name, moveDict[team_one_choice]["name"], damage), DEBUG)
+        printDebug("%s used %s! It did %d damage!" % (team_one_pokemon.name, moveDict[team_one_choice]["name"], damage), self.debug)
+
+        team_one_pokemon.damage_dealt += damage
 
         team_two_pokemon.current_hp -= damage
         if team_one_choice == "165": #Struggle
@@ -86,16 +87,17 @@ class BattleSim(object):
             else: #one of them is switching
                 if team_one_choice != team_two_choice and team_one_choice == "switch":
                     self.t1_selected_poke = team_one_move
-                    printDebug("Team One switched to %s!" % (team_one_move.name), DEBUG)
+                    printDebug("Team One switched to %s!" % (team_one_move.name), self.debug)
                     self.execute_move(team_two_move, self.t2_selected_poke, self.t1_selected_poke)
                 elif team_one_choice != team_two_choice and team_two_choice == "switch":
                     self.t2_selected_poke = team_two_move
-                    printDebug("Team Two switched to %s!" % (team_two_move.name), DEBUG)
+                    printDebug("Team Two switched to %s!" % (team_two_move.name), self.debug)
                     self.execute_move(team_one_move, self.t1_selected_poke, self.t2_selected_poke)
                 else:
                     self.t1_selected_poke = team_one_move
                     self.t2_selected_poke = team_two_move
-            # input()
+            if self.debug:
+                input()
         return self.team_one.get_total_health_percentage(), self.team_two.get_total_health_percentage()
 
 

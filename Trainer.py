@@ -6,10 +6,8 @@ import random
 from Utils import moveDict, typeDict, pokeDict, pokeList, pokeListSansUbers, uberList
 from Pokemon import Pokemon
 
-DEBUG = False
-
 class Trainer(object):
-    def __init__(self, pokemon=None, manual=True):
+    def __init__(self, pokemon=None, manual=True, debug=False):
         if not pokemon:
             self.pokemon = generateTeam.generateTeam()
         else:
@@ -18,6 +16,23 @@ class Trainer(object):
         self.fitness = None
         self.move_types = {}
         self.switched_last_turn = False
+        self.debug = debug
+
+    def createTeamFromListOfDicts(self, poke_dict_list):
+        pokemon_list = []
+        for pokemon in poke_dict_list:
+            p_id = pokemon['id']
+            move_list = pokemon['moves']
+            new_poke = Pokemon(p_id, pokeDict[p_id]['name'], pokeDict[p_id]['types'], pokeDict[p_id]['stats'], pokeDict[p_id]['moves'])
+
+            move_dict = {}
+            for move in move_list:
+                move_dict[move] = moveDict[move]
+                move_dict[move]['current_pp'] = move_dict[move]['pp']
+
+            new_poke.moves = move_dict
+            pokemon_list.append(new_poke)
+        self.pokemon = pokemon_list
 
     def populateMoveTypesDict(self):
         for pokemon in self.pokemon:
@@ -171,7 +186,7 @@ Enemy Pokemon in Play: %s
 
                 return "switch", poke_choice
         else: # AI
-            if DEBUG:
+            if self.debug:
                 self.display_current_pokemon(current_pokemon, enemy_pokemon)
             moves_possible = []
             most_damaging = (None, None)
@@ -222,15 +237,17 @@ Enemy Pokemon in Play: %s
             return moves_possible[0][2], moves_possible[0][0]
 
     def printTeam(self):
-        header_string = "%15s  %15s  %15s  %15s  %15s  %15s  %15s" % ("Name", "Type 1", "Type 2", "Move 1", "Move 2", "Move 3", "Move 4")
+        header_string = "%20s  %20s  %20s  %20s  %20s  %20s  %20s  %20s" % ("Name", "Type 1", "Type 2", "Move 1", "Move 2", "Move 3", "Move 4", "Damage Dealt")
         print(header_string)
         for pokemon in self.pokemon:
-            poke_string = "%15s" % (pokemon.name)
+            poke_string = "%20s" % (pokemon.name)
             for typeKey in pokemon.types:
                 str_type = str(typeKey)
-                poke_string += "  %15s" % (typeDict[str_type]["name"])
+                poke_string += "  %20s" % (typeDict[str_type]["name"])
             if len(pokemon.types) == 1:
-                poke_string += "  %15s" % (" ")
+                poke_string += "  %20s" % (" ")
             for moveKey in pokemon.moves:
-                poke_string += "  %15s" % (pokemon.moves[moveKey]["name"] + "-" + str(pokemon.moves[moveKey]["power"]))
+                poke_string += "  %20s" % (pokemon.moves[moveKey]["name"] + "-" + str(pokemon.moves[moveKey]["power"]))
+            poke_string += ("  %20s" % (" ")) * (4 - len(pokemon.moves))
+            poke_string += "  %20d" % (pokemon.damage_dealt)
             print(poke_string)

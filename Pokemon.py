@@ -23,6 +23,7 @@ class Pokemon(object):
         self.speed = convertToLevel100(stats['speed'])
         self.valid_moves = valid_moves
         self.stats = stats
+        self.damage_dealt = 0
         if moves:
             self.moves = copy.deepcopy(moves)
         else:
@@ -56,14 +57,7 @@ class Pokemon(object):
                 cap = 0
                 while (moveDict[next_move]["power"] == 0 and cap <= 25) or next_move in self.moves:
                     next_move = str(random.choice(self.valid_moves))
-                    # print("Next move option: ", moveDict[next_move]["name"])
-                    # print("Power option: ", moveDict[next_move]["power"])
                     cap += 1
-                # print("Next move choice: ", moveDict[next_move]["name"])
-                # print("Power choice: ", moveDict[next_move]["power"])
-                # print("Cap: ", cap)
-                # print("Pokemon: ", self.name)
-                # input()
                 self.moves[next_move] = moveDict[next_move]
                 self.moves[next_move]["current_pp"] = self.moves[next_move]["pp"]
 

@@ -7342,5 +7342,17 @@
     "damage_class": "special",
     "effect": 270,
     "effect_chance": 0
+  },
+  "618": {
+    "id": 618,
+    "name": "Dragon Ascent",
+    "type": 3,
+    "power": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "priority": 0,
+    "damage_class": "physical",
+    "effect": 1,
+    "effect_chance": 0
   }
 }
