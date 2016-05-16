@@ -92,3 +92,76 @@ New fittest: -1.268027
               Zapdos              Electric                Flying        Thunderbolt-90         Steel Wing-70               Peck-35         Drill Peck-80                    73
           Escavalier                   Bug                 Steel              Slash-70          X-Scissor-80              Round-60           Headbutt-70                   250
           Ferrothorn                 Grass                 Steel        Mirror Shot-65        Power Whip-120         Rock Climb-90          Seed Bomb-80                   135
+Iteration: 2
+New fittest: -1.214966
+	Record: [-0.10068027210884353, -0.5619047619047619, -0.5523809523809524]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Zapdos              Electric                Flying        Thunderbolt-90         Drill Peck-80              Round-60                Fly-90                   103
+             Snorlax                Normal                                     Surf-90       Flamethrower-90           Thunder-110        Brick Break-75                    83
+          Escavalier                   Bug                 Steel               Peck-35          X-Scissor-80       Focus Blast-120                Cut-50                   183
+              Zapdos              Electric                Flying        Thunderbolt-90         Drill Peck-80               Peck-35         Steel Wing-70                    78
+          Escavalier                   Bug                 Steel              Slash-70          X-Scissor-80              Round-60           Headbutt-70                   253
+          Ferrothorn                 Grass                 Steel        Power Whip-120        Mirror Shot-65         Rock Climb-90          Seed Bomb-80                   177
+Iteration: 3
+New fittest: -0.854422
+	Record: [-0.3306122448979592, -0.32653061224489793, -0.19727891156462585]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                              Earthquake-100        Brick Break-75              Round-60           Thunder-110                   126
+             Snorlax                Normal                                     Surf-90       Flamethrower-90        Brick Break-75           Thunder-110                   162
+          Escavalier                   Bug                 Steel               Peck-35          X-Scissor-80       Focus Blast-120                Cut-50                   176
+              Zapdos              Electric                Flying        Thunderbolt-90         Steel Wing-70               Peck-35         Drill Peck-80                   128
+          Escavalier                   Bug                 Steel              Slash-70          X-Scissor-80              Round-60           Headbutt-70                   206
+          Ferrothorn                 Grass                 Steel        Power Whip-120        Mirror Shot-65         Rock Climb-90          Seed Bomb-80                   196
+Iteration: 4
+New fittest: -0.599760
+	Record: [-0.05442176870748299, -0.5523809523809524, 0.007042253521126761]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                              Earthquake-100        Brick Break-75              Round-60           Thunder-110                   128
+             Snorlax                Normal                                     Surf-90        Brick Break-75           Thunder-110       Flamethrower-90                   165
+          Escavalier                   Bug                 Steel               Peck-35          X-Scissor-80       Focus Blast-120                Cut-50                   191
+              Zapdos              Electric                Flying        Thunderbolt-90         Drill Peck-80               Peck-35         Steel Wing-70                   120
+          Escavalier                   Bug                 Steel              Slash-70          X-Scissor-80              Round-60           Headbutt-70                   205
+          Ferrothorn                 Grass                 Steel        Power Whip-120        Mirror Shot-65         Rock Climb-90          Seed Bomb-80                   180
+Iteration: 5
+Iteration: 6
+New fittest: -0.360811
+	Record: [0.028831562974203338, -0.45034013605442175, 0.06069802731411229]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                              Earthquake-100        Brick Break-75              Round-60           Thunder-110                   119
+             Snorlax                Normal                                     Surf-90        Brick Break-75           Thunder-110       Flamethrower-90                   141
+          Escavalier                   Bug                 Steel               Peck-35          X-Scissor-80       Focus Blast-120                Cut-50                   196
+           Excadrill                Ground                 Steel         Poison Jab-80        Earthquake-100        Brick Break-75         Rock Climb-90                   352
+          Escavalier                   Bug                 Steel              Slash-70          X-Scissor-80              Round-60           Headbutt-70                   235
+          Ferrothorn                 Grass                 Steel        Mirror Shot-65        Power Whip-120         Rock Climb-90          Seed Bomb-80                   183
+Iteration: 7
+Iteration: 8
+New fittest: -0.143123
+	Record: [0.057663125948406675, -0.23265306122448978, 0.03186646433990895]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                              Earthquake-100        Brick Break-75              Round-60           Thunder-110                   127
+             Snorlax                Normal                                     Surf-90             Tackle-50           Strength-80           Thunder-110                   204
+          Escavalier                   Bug                 Steel               Peck-35          X-Scissor-80       Focus Blast-120                Cut-50                   200
+           Excadrill                Ground                 Steel         Poison Jab-80        Earthquake-100        Brick Break-75         Rock Climb-90                   254
+          Escavalier                   Bug                 Steel              Slash-70          X-Scissor-80              Round-60           Headbutt-70                   247
+          Ferrothorn                 Grass                 Steel        Power Whip-120        Mirror Shot-65         Rock Climb-90          Seed Bomb-80                   164
+Iteration: 9
+New fittest: -0.007462
+	Record: [0.057663125948406675, -0.11292517006802721, 0.04779969650986343]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                              Earthquake-100        Brick Break-75              Round-60           Thunder-110                   122
+             Snorlax                Normal                                     Surf-90             Tackle-50           Strength-80           Thunder-110                   212
+          Escavalier                   Bug                 Steel               Peck-35          X-Scissor-80       Focus Blast-120                Cut-50                   206
+           Excadrill                Ground                 Steel         Poison Jab-80        Earthquake-100        Brick Break-75         Rock Climb-90                   342
+          Escavalier                   Bug                 Steel              Slash-70          X-Scissor-80              Round-60           Headbutt-70                   229
+          Ferrothorn                 Grass                 Steel        Power Whip-120        Mirror Shot-65         Rock Climb-90          Seed Bomb-80                   179
+Iteration: 10
+Iteration: 11
+Iteration: 12
+Iteration: 13
+Iteration: 14
+Iteration: 15
+Iteration: 16
+Iteration: 17
+Iteration: 18
+Iteration: 19
+Iteration: 20
