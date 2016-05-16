@@ -1,0 +1,143 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -2.478912
+	Record: [-0.6190476190476191, -0.9047619047619048, -0.9551020408163265]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Gogoat                 Grass                                     Surf-90         Rock Slide-75        Earthquake-100             Tackle-50                   114
+             Haxorus                Dragon                                     Surf-90                Cut-50       Dragon Pulse-85          X-Scissor-80                    39
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   167
+           Abomasnow                 Grass                   Ice           Strength-80          Ice Punch-75        Shadow Ball-80         Rock Slide-75                   136
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                    70
+             Shaymin                 Grass                              Energy Ball-90        Seed Flare-120              Round-60     Dazzling Gleam-80                    83
+Iteration: 2
+New fittest: -2.306122
+	Record: [-0.4775510204081633, -0.8816326530612245, -0.9469387755102041]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Gogoat                 Grass                                     Surf-90         Rock Slide-75        Earthquake-100             Tackle-50                   114
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100          Iron Head-80                Cut-50                   101
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   133
+           Abomasnow                 Grass                   Ice           Strength-80          Ice Punch-75        Shadow Ball-80         Rock Slide-75                   115
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                    67
+             Shaymin                 Grass                              Energy Ball-90        Seed Flare-120              Round-60     Dazzling Gleam-80                    80
+Iteration: 3
+New fittest: -2.253061
+	Record: [-0.4272108843537415, -0.8857142857142857, -0.9401360544217687]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Gogoat                 Grass                                     Surf-90         Rock Slide-75        Earthquake-100             Tackle-50                   175
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100                Cut-50          Iron Head-80                    75
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   164
+           Abomasnow                 Grass                   Ice           Strength-80          Ice Punch-75        Shadow Ball-80         Rock Slide-75                   122
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                    62
+             Shaymin                 Grass                              Energy Ball-90        Seed Flare-120              Round-60     Dazzling Gleam-80                    85
+Iteration: 4
+New fittest: -1.980952
+	Record: [-0.22585034013605443, -0.8204081632653061, -0.9346938775510204]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Garchomp                Dragon                Ground       Flamethrower-90           Strength-80             Tackle-50        Stone Edge-100                    41
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100                Cut-50          Iron Head-80                    76
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   123
+           Abomasnow                 Grass                   Ice           Strength-80          Ice Punch-75        Shadow Ball-80         Rock Slide-75                   132
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                    70
+             Shaymin                 Grass                              Energy Ball-90        Seed Flare-120              Round-60     Dazzling Gleam-80                    83
+Iteration: 5
+New fittest: -1.769388
+	Record: [-0.5312925170068027, -0.5401360544217687, -0.6979591836734694]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Swampert                 Water                Ground        Earthquake-100        Brick Break-75        Hydro Pump-110       Focus Blast-120                   267
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100          Iron Head-80                Cut-50                    94
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   126
+           Abomasnow                 Grass                   Ice           Strength-80          Ice Punch-75        Shadow Ball-80         Rock Slide-75                   116
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                    63
+             Shaymin                 Grass                              Energy Ball-90        Seed Flare-120              Round-60     Dazzling Gleam-80                    80
+Iteration: 6
+New fittest: -1.677551
+	Record: [-0.2761904761904762, -0.7687074829931972, -0.6326530612244898]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Sylveon                 Fairy                                      Cut-50          Moonblast-95        Shadow Ball-80         Fairy Wind-40                   205
+            Garchomp                Dragon                Ground       Flamethrower-90                Cut-50        Earthquake-100          Iron Head-80                   139
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   164
+           Abomasnow                 Grass                   Ice           Strength-80          Ice Punch-75        Shadow Ball-80         Rock Slide-75                    67
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                   132
+             Shaymin                 Grass                              Energy Ball-90        Seed Flare-120              Round-60     Dazzling Gleam-80                   109
+Iteration: 7
+New fittest: -1.616327
+	Record: [-0.1782312925170068, -0.508843537414966, -0.9292517006802721]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Sylveon                 Fairy                                      Cut-50         Fairy Wind-40        Shadow Ball-80          Moonblast-95                   240
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100                Cut-50          Iron Head-80                   173
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   131
+            Garchomp                Dragon                Ground         Rock Climb-90        Brick Break-75              Round-60             Crunch-80                    38
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                   103
+             Shaymin                 Grass                              Energy Ball-90        Seed Flare-120              Round-60     Dazzling Gleam-80                   119
+Iteration: 8
+Iteration: 9
+New fittest: -1.586395
+	Record: [-0.3034013605442177, -0.5591836734693878, -0.7238095238095238]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Sylveon                 Fairy                                      Cut-50         Fairy Wind-40        Shadow Ball-80          Moonblast-95                   184
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100          Iron Head-80                Cut-50                   144
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   163
+            Garchomp                Dragon                Ground         Rock Climb-90        Brick Break-75              Round-60             Crunch-80                    48
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                   130
+             Blissey                Normal                                 Ice Beam-90           Strength-80        Brick Break-75              Pound-40                    34
+Iteration: 10
+New fittest: -0.881806
+	Record: [-0.04081632653061224, 0.04744525547445255, -0.8884353741496599]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Sylveon                 Fairy                                      Cut-50         Fairy Wind-40        Shadow Ball-80          Moonblast-95                   172
+            Garchomp                Dragon                Ground       Flamethrower-90                Cut-50        Earthquake-100          Iron Head-80                   162
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   114
+            Garchomp                Dragon                Ground         Rock Climb-90        Brick Break-75              Round-60             Crunch-80                    52
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                   141
+           Dragonite                Dragon                Flying                Cut-50       Focus Blast-120        Wing Attack-60         Hurricane-110                    32
+Iteration: 11
+New fittest: -0.812741
+	Record: [0.1927007299270073, -0.09795918367346938, -0.9074829931972789]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Sylveon                 Fairy                                      Cut-50          Moonblast-95        Shadow Ball-80         Fairy Wind-40                   189
+            Garchomp                Dragon                Ground       Flamethrower-90                Cut-50          Iron Head-80        Earthquake-100                   148
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   123
+            Garchomp                Dragon                Ground         Rock Climb-90        Brick Break-75              Round-60             Crunch-80                    57
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                   136
+           Dragonite                Dragon                Flying                Cut-50         Hurricane-110        Wing Attack-60       Focus Blast-120                    31
+Iteration: 12
+Iteration: 13
+Iteration: 14
+Iteration: 15
+Iteration: 16
+Iteration: 17
+Iteration: 18
+Iteration: 19
+Iteration: 20
+Iteration: 21
+Iteration: 22
+Iteration: 23
+New fittest: -0.750648
+	Record: [0.1554744525547445, -0.0027210884353741495, -0.9034013605442177]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Sylveon                 Fairy                                      Cut-50         Fairy Wind-40        Shadow Ball-80          Moonblast-95                   163
+            Garchomp                Dragon                Ground       Flamethrower-90                Cut-50          Iron Head-80        Earthquake-100                   123
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   131
+            Garchomp                Dragon                Ground         Rock Climb-90        Brick Break-75              Round-60             Crunch-80                    49
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                   140
+           Dragonite                Dragon                Flying                Cut-50       Focus Blast-120        Wing Attack-60         Hurricane-110                    37
+Iteration: 24
+New fittest: -0.547946
+	Record: [0.07266666666666667, 0.17666666666666667, -0.7972789115646258]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                             Flamethrower-90        Thunderbolt-90          Body Slam-85             Tackle-50                   242
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100          Iron Head-80                Cut-50                    66
+             Snorlax                Normal                               Rock Slide-75        Thunderbolt-90              Round-60             Crunch-80                   143
+            Garchomp                Dragon                Ground         Rock Climb-90        Brick Break-75              Round-60             Crunch-80                    37
+            Garchomp                Dragon                Ground           Strength-80         Rock Slide-75        Earthquake-100        Brick Break-75                    78
+           Dragonite                Dragon                Flying                Cut-50         Hurricane-110        Wing Attack-60       Focus Blast-120                    69
+Iteration: 25
+Iteration: 26
+Iteration: 27
+Iteration: 28
+Iteration: 29
+Iteration: 30
+Experiment 1 duration: 4479.290231

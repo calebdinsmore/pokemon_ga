@@ -1,0 +1,89 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -1.624490
+	Record: [-0.32653061224489793, -0.7700680272108843, -0.527891156462585]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Machamp              Fighting                              Brick Break-75       Flamethrower-90       Focus Blast-120       Bullet Punch-40                    91
+             Snorlax                Normal                                  Psychic-90         Rock Slide-75           Ice Beam-90               Surf-90                   107
+          Escavalier                   Bug                 Steel           Headbutt-70          X-Scissor-80          Iron Head-80               Peck-35                   340
+           Reuniclus               Psychic                              Energy Ball-90            Psychic-90       Focus Blast-120           Strength-80                    70
+            Hariyama              Fighting                              Cross Chop-100       Focus Blast-120         Rock Slide-75           Strength-80                   146
+              Zapdos              Electric                Flying         Drill Peck-80        Thunderbolt-90         Steel Wing-70          Discharge-80                   206
+Iteration: 2
+Iteration: 3
+New fittest: -1.526531
+	Record: [-0.3238095238095238, -0.7238095238095238, -0.47891156462585033]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Machamp              Fighting                             Flamethrower-90        Brick Break-75       Focus Blast-120       Bullet Punch-40                    96
+             Snorlax                Normal                                  Psychic-90         Rock Slide-75           Ice Beam-90               Surf-90                   103
+          Escavalier                   Bug                 Steel           Headbutt-70          X-Scissor-80          Iron Head-80               Peck-35                   327
+           Reuniclus               Psychic                              Energy Ball-90            Psychic-90       Focus Blast-120           Strength-80                    80
+            Hariyama              Fighting                              Cross Chop-100       Focus Blast-120         Rock Slide-75           Strength-80                   131
+              Zapdos              Electric                Flying         Drill Peck-80        Thunderbolt-90         Steel Wing-70          Discharge-80                   243
+Iteration: 4
+Iteration: 5
+New fittest: -1.172376
+	Record: [0.014018691588785047, -0.41904761904761906, -0.7673469387755102]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                              Earthquake-100           Thunder-110        Thunderbolt-90             Tackle-50                   200
+             Snorlax                Normal                                  Psychic-90           Ice Beam-90         Rock Slide-75               Surf-90                   100
+          Escavalier                   Bug                 Steel           Headbutt-70          X-Scissor-80          Iron Head-80               Peck-35                   244
+           Reuniclus               Psychic                              Energy Ball-90            Psychic-90       Focus Blast-120           Strength-80                    92
+            Hariyama              Fighting                              Cross Chop-100       Focus Blast-120         Rock Slide-75           Strength-80                    56
+              Zapdos              Electric                Flying         Drill Peck-80        Thunderbolt-90         Steel Wing-70          Discharge-80                    72
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Iteration: 12
+Iteration: 13
+Iteration: 14
+New fittest: -0.934694
+	Record: [-0.3292517006802721, -0.2639455782312925, -0.3414965986394558]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Meloetta                Normal               Psychic            Psychic-90        Shadow Ball-80       Focus Blast-120           Strength-80                   185
+             Snorlax                Normal                                  Psychic-90         Rock Slide-75           Ice Beam-90               Surf-90                   108
+          Escavalier                   Bug                 Steel           Headbutt-70          X-Scissor-80          Iron Head-80               Peck-35                   277
+           Reuniclus               Psychic                              Energy Ball-90            Psychic-90       Focus Blast-120           Strength-80                   139
+            Hariyama              Fighting                              Cross Chop-100       Focus Blast-120         Rock Slide-75           Strength-80                   111
+              Zapdos              Electric                Flying         Drill Peck-80        Thunderbolt-90         Steel Wing-70          Discharge-80                   159
+Iteration: 15
+Iteration: 16
+New fittest: -0.919091
+	Record: [0.02104499274310595, -0.46938775510204084, -0.4707482993197279]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Meloetta                Normal               Psychic            Psychic-90        Shadow Ball-80       Focus Blast-120           Strength-80                   210
+             Snorlax                Normal                                  Psychic-90         Rock Slide-75           Ice Beam-90               Surf-90                    97
+          Escavalier                   Bug                 Steel           Headbutt-70          X-Scissor-80          Iron Head-80               Peck-35                   260
+           Reuniclus               Psychic                              Energy Ball-90            Psychic-90       Focus Blast-120           Strength-80                   132
+            Hariyama              Fighting                              Cross Chop-100       Focus Blast-120         Rock Slide-75           Strength-80                   139
+              Zapdos              Electric                Flying         Drill Peck-80        Thunderbolt-90         Steel Wing-70          Discharge-80                   160
+Iteration: 17
+Iteration: 18
+New fittest: -0.822309
+	Record: [0.045718432510885344, -0.49387755102040815, -0.3741496598639456]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Meloetta                Normal               Psychic            Psychic-90           Strength-80       Focus Blast-120        Shadow Ball-80                   200
+             Snorlax                Normal                                  Psychic-90         Rock Slide-75           Ice Beam-90               Surf-90                   108
+          Escavalier                   Bug                 Steel           Headbutt-70          X-Scissor-80          Iron Head-80               Peck-35                   228
+           Reuniclus               Psychic                              Energy Ball-90            Psychic-90       Focus Blast-120           Strength-80                   137
+            Hariyama              Fighting                              Cross Chop-100       Focus Blast-120         Rock Slide-75           Strength-80                   151
+              Zapdos              Electric                Flying         Drill Peck-80        Thunderbolt-90         Steel Wing-70          Discharge-80                   193
+Iteration: 19
+Iteration: 20
+Iteration: 21
+Iteration: 22
+Iteration: 23
+Iteration: 24
+Iteration: 25
+Iteration: 26
+Iteration: 27
+Iteration: 28
+Iteration: 29
+Iteration: 30
+Experiment 1 duration: 4696.849524
