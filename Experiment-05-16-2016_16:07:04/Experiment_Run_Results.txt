@@ -1,0 +1,152 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -2.182313
+	Record: [-0.5782312925170068, -0.6993197278911565, -0.9047619047619048]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Hariyama              Fighting                                 Strength-80              Round-60        Brick Break-75        Cross Chop-100                   128
+             Altaria                Dragon                Flying      Dragon Breath-60           Ice Beam-90              Round-60               Peck-35                    35
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   224
+                Uxie               Psychic                                 Thunder-110        Shadow Ball-80        Energy Ball-90          Confusion-50                    47
+              Golurk                Ground                 Ghost        Shadow Ball-80       Shadow Punch-60       Focus Blast-120           Strength-80                    37
+            Ursaring                Normal                                 Strength-80                Cut-50             Crunch-80        Cross Chop-100                   112
+Iteration: 2
+New fittest: -1.220408
+	Record: [-0.2816326530612245, -0.2857142857142857, -0.6530612244897959]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Hariyama              Fighting                                 Strength-80              Round-60        Brick Break-75        Cross Chop-100                   118
+             Zygarde                Dragon                Ground       Dragon Pulse-85              Round-60             Crunch-80               Bite-60                    86
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   233
+            Munchlax                Normal                                 Ice Beam-90        Earthquake-100        Brick Break-75           Strength-80                   117
+            Braviary                Normal                Flying                Cut-50                Fly-90        Wing Attack-60         Steel Wing-70                   107
+            Ursaring                Normal                                 Strength-80                Cut-50             Crunch-80        Cross Chop-100                   154
+Iteration: 3
+New fittest: -1.195918
+	Record: [-0.3047619047619048, -0.254421768707483, -0.636734693877551]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Hariyama              Fighting                                 Strength-80              Round-60        Brick Break-75        Cross Chop-100                    60
+             Zygarde                Dragon                Ground       Dragon Pulse-85              Round-60             Crunch-80               Bite-60                    86
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   220
+            Munchlax                Normal                                 Ice Beam-90        Earthquake-100        Brick Break-75           Strength-80                   144
+            Braviary                Normal                Flying                Cut-50                Fly-90        Wing Attack-60         Steel Wing-70                    42
+            Ursaring                Normal                                 Strength-80                Cut-50             Crunch-80        Cross Chop-100                   123
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+New fittest: -1.134694
+	Record: [-0.3197278911564626, -0.5183673469387755, -0.2965986394557823]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Hariyama              Fighting                                 Strength-80              Round-60        Brick Break-75        Cross Chop-100                   114
+            Hariyama              Fighting                              Earthquake-100              Round-60       Bullet Punch-40        Cross Chop-100                    43
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   176
+            Munchlax                Normal                                 Ice Beam-90        Earthquake-100        Brick Break-75           Strength-80                   134
+          Aromatisse                 Fairy                                 Thunder-110        Energy Ball-90            Psychic-90          Moonblast-95                   179
+          Escavalier                   Bug                 Steel               Peck-35       Focus Blast-120         Poison Jab-80          X-Scissor-80                   262
+Iteration: 8
+Iteration: 9
+Iteration: 10
+New fittest: -1.031293
+	Record: [-0.31700680272108844, -0.20272108843537415, -0.5115646258503401]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Gogoat                 Grass                                 Strength-80        Earthquake-100              Round-60        Brick Break-75                   131
+            Hariyama              Fighting                              Earthquake-100              Round-60       Bullet Punch-40        Cross Chop-100                   177
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   213
+            Munchlax                Normal                                 Ice Beam-90        Earthquake-100        Brick Break-75           Strength-80                   123
+          Aromatisse                 Fairy                                 Thunder-110        Energy Ball-90            Psychic-90          Moonblast-95                   178
+          Escavalier                   Bug                 Steel               Peck-35       Focus Blast-120          X-Scissor-80         Poison Jab-80                   232
+Iteration: 11
+New fittest: -0.895238
+	Record: [-0.047619047619047616, -0.4163265306122449, -0.4312925170068027]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost        Thunderbolt-90       Focus Blast-120            Psybeam-65        Energy Ball-90                   216
+            Garchomp                Dragon                Ground              Slash-70             Tackle-50        Earthquake-100       Flamethrower-90                    78
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   180
+             Snorlax                Normal                              Shadow Ball-80        Earthquake-100       Zen Headbutt-80       Focus Blast-120                   156
+          Aromatisse                 Fairy                                 Thunder-110        Energy Ball-90            Psychic-90          Moonblast-95                   176
+          Escavalier                   Bug                 Steel               Peck-35       Focus Blast-120         Poison Jab-80          X-Scissor-80                   234
+Iteration: 12
+New fittest: -0.554664
+	Record: [0.08887381275440977, -0.3183673469387755, -0.3251700680272109]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost        Thunderbolt-90       Focus Blast-120            Psybeam-65        Energy Ball-90                    69
+            Garchomp                Dragon                Ground              Slash-70             Tackle-50        Earthquake-100       Flamethrower-90                    84
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   246
+             Snorlax                Normal                              Shadow Ball-80        Earthquake-100       Zen Headbutt-80       Focus Blast-120                   100
+            Hariyama              Fighting                               Rock Slide-75              Round-60        Brick Break-75        Cross Chop-100                   181
+          Escavalier                   Bug                 Steel         Poison Jab-80       Focus Blast-120          X-Scissor-80               Peck-35                   260
+Iteration: 13
+Iteration: 14
+Iteration: 15
+New fittest: -0.365191
+	Record: [0.15725806451612903, -0.2829931972789116, -0.23945578231292516]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                Body Slam-85       Focus Blast-120        Brick Break-75       Flamethrower-90                   214
+            Garchomp                Dragon                Ground              Slash-70             Tackle-50        Earthquake-100       Flamethrower-90                    73
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   227
+             Snorlax                Normal                              Shadow Ball-80        Earthquake-100       Zen Headbutt-80       Focus Blast-120                   147
+              Rhydon                Ground                  Rock        Thunderbolt-90           Strength-80         Poison Jab-80             Crunch-80                    75
+             Snorlax                Normal                                 Thunder-110             Tackle-50               Surf-90        Brick Break-75                   196
+Iteration: 16
+New fittest: -0.081682
+	Record: [0.07430167597765364, 0.02905027932960894, -0.18503401360544217]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                Body Slam-85       Focus Blast-120        Brick Break-75       Flamethrower-90                   155
+            Munchlax                Normal                                   Tackle-50          Blizzard-110        Brick Break-75        Shadow Ball-80                    62
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   228
+             Snorlax                Normal                              Shadow Ball-80        Earthquake-100       Zen Headbutt-80       Focus Blast-120                   153
+              Rhydon                Ground                  Rock        Thunderbolt-90           Strength-80         Poison Jab-80             Crunch-80                    67
+             Snorlax                Normal                                 Thunder-110             Tackle-50               Surf-90        Brick Break-75                   239
+Iteration: 17
+New fittest: -0.028313
+	Record: [0.09832402234636871, 0.03798882681564246, -0.16462585034013605]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                Body Slam-85       Focus Blast-120        Brick Break-75       Flamethrower-90                   234
+            Munchlax                Normal                                   Tackle-50          Blizzard-110        Brick Break-75        Shadow Ball-80                    62
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   205
+             Snorlax                Normal                              Shadow Ball-80        Earthquake-100       Zen Headbutt-80       Focus Blast-120                   149
+              Rhydon                Ground                  Rock        Thunderbolt-90           Strength-80         Poison Jab-80             Crunch-80                    71
+             Snorlax                Normal                                 Thunder-110             Tackle-50               Surf-90        Brick Break-75                   210
+Iteration: 18
+Iteration: 19
+Iteration: 20
+New fittest: 0.191573
+	Record: [0.09438202247191012, 0.08202247191011236, 0.015168539325842697]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                Body Slam-85       Focus Blast-120        Brick Break-75       Flamethrower-90                   188
+            Munchlax                Normal                                   Tackle-50          Blizzard-110        Brick Break-75        Shadow Ball-80                   112
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   250
+             Snorlax                Normal                              Shadow Ball-80        Earthquake-100       Zen Headbutt-80       Focus Blast-120                   155
+            Meloetta                Normal               Psychic     Dazzling Gleam-80            Psybeam-65              Round-60        Brick Break-75                   108
+             Snorlax                Normal                                 Thunder-110             Tackle-50               Surf-90        Brick Break-75                   197
+Iteration: 21
+New fittest: 0.215169
+	Record: [0.07359550561797752, 0.1258426966292135, 0.015730337078651686]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                Body Slam-85       Focus Blast-120        Brick Break-75       Flamethrower-90                   191
+            Munchlax                Normal                                   Tackle-50          Blizzard-110        Brick Break-75        Shadow Ball-80                    86
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   227
+             Snorlax                Normal                              Shadow Ball-80        Earthquake-100       Zen Headbutt-80       Focus Blast-120                   157
+            Meloetta                Normal               Psychic     Dazzling Gleam-80            Psybeam-65              Round-60        Brick Break-75                   114
+             Snorlax                Normal                                 Thunder-110             Tackle-50               Surf-90        Brick Break-75                   191
+Iteration: 22
+Iteration: 23
+New fittest: 0.286061
+	Record: [0.14363636363636365, 0.07818181818181819, 0.06424242424242424]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                Body Slam-85       Focus Blast-120        Brick Break-75       Flamethrower-90                   246
+          Escavalier                   Bug                 Steel         Poison Jab-80          X-Scissor-80           Headbutt-70          Megahorn-120                   311
+             Snorlax                Normal                               Rock Slide-75           Ice Beam-90          Body Slam-85             Tackle-50                   201
+             Snorlax                Normal                              Shadow Ball-80        Earthquake-100       Zen Headbutt-80       Focus Blast-120                   107
+            Meloetta                Normal               Psychic     Dazzling Gleam-80            Psybeam-65              Round-60        Brick Break-75                   106
+             Snorlax                Normal                                 Thunder-110             Tackle-50               Surf-90        Brick Break-75                   187
+Iteration: 24
+Iteration: 25
+Iteration: 26
+Iteration: 27
+Iteration: 28
+Iteration: 29
+Iteration: 30
+Experiment 1 duration: 5877.164766

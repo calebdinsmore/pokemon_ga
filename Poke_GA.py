@@ -199,7 +199,7 @@ overall_time_start = time.time()
 
 if pg.draw_graph:
     plotter = Plotter()
-for experiment_num in range(1, 4):
+for experiment_num in range(1, 2):
 
     experiment_start = time.time()
 

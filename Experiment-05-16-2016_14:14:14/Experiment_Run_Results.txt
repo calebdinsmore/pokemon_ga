@@ -1,0 +1,80 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -1.172937
+	Record: [0.13182527301092042, -0.8653061224489796, -0.43945578231292515]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost        Shadow Ball-80        Thunderbolt-90            Psybeam-65        Brick Break-75                    36
+              Zapdos              Electric                Flying         Drill Peck-80           Thunder-110        Thunderbolt-90          Discharge-80                    72
+            Musharna               Psychic                                  Psychic-90       Zen Headbutt-80            Psybeam-65              Round-60                    38
+              Flygon                Ground                Dragon        Signal Beam-75         Rock Slide-75        Earthquake-100               Bite-60                    38
+             Suicune                 Water                              Shadow Ball-80               Bite-60              Round-60        Hydro Pump-110                    83
+             Snorlax                Normal                                Blizzard-110              Round-60               Surf-90           Strength-80                   155
+Iteration: 2
+Iteration: 3
+New fittest: -1.156593
+	Record: [0.19578783151326054, -0.8693877551020408, -0.48299319727891155]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost        Shadow Ball-80        Thunderbolt-90            Psybeam-65        Brick Break-75                    35
+              Zapdos              Electric                Flying         Drill Peck-80           Thunder-110        Thunderbolt-90          Discharge-80                    38
+            Musharna               Psychic                                  Psychic-90       Zen Headbutt-80            Psybeam-65              Round-60                   151
+              Flygon                Ground                Dragon        Signal Beam-75         Rock Slide-75        Earthquake-100               Bite-60                    40
+             Suicune                 Water                              Shadow Ball-80               Bite-60              Round-60        Hydro Pump-110                   119
+             Snorlax                Normal                                Blizzard-110              Round-60               Surf-90           Strength-80                   147
+Iteration: 4
+New fittest: -1.136384
+	Record: [0.19422776911076442, -0.8789115646258503, -0.45170068027210886]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost        Shadow Ball-80        Thunderbolt-90            Psybeam-65        Brick Break-75                    34
+              Zapdos              Electric                Flying         Drill Peck-80           Thunder-110        Thunderbolt-90          Discharge-80                    77
+            Musharna               Psychic                                  Psychic-90       Zen Headbutt-80            Psybeam-65              Round-60                    35
+              Flygon                Ground                Dragon         Rock Slide-75        Signal Beam-75        Earthquake-100               Bite-60                    15
+             Suicune                 Water                              Shadow Ball-80               Bite-60              Round-60        Hydro Pump-110                    90
+             Snorlax                Normal                                Blizzard-110              Round-60               Surf-90           Strength-80                   128
+Iteration: 5
+Iteration: 6
+New fittest: -0.997337
+	Record: [0.21762870514820593, -0.7251700680272108, -0.4897959183673469]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost        Shadow Ball-80        Thunderbolt-90            Psybeam-65        Brick Break-75                   178
+              Zapdos              Electric                Flying         Drill Peck-80           Thunder-110        Thunderbolt-90          Discharge-80                   235
+            Musharna               Psychic                                  Psychic-90       Zen Headbutt-80            Psybeam-65              Round-60                   146
+              Flygon                Ground                Dragon         Rock Slide-75        Signal Beam-75        Earthquake-100               Bite-60                   142
+             Suicune                 Water                              Shadow Ball-80        Hydro Pump-110              Round-60               Bite-60                    97
+             Snorlax                Normal                                Blizzard-110              Round-60               Surf-90           Strength-80                   129
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Iteration: 12
+Iteration: 13
+Iteration: 14
+Iteration: 15
+Iteration: 16
+Iteration: 17
+Iteration: 18
+Iteration: 19
+Iteration: 20
+Iteration: 21
+Iteration: 22
+Iteration: 23
+New fittest: -0.909837
+	Record: [0.011251758087201125, -0.45714285714285713, -0.4639455782312925]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                Blizzard-110       Zen Headbutt-80          Body Slam-85           Strength-80                   197
+              Zapdos              Electric                Flying         Drill Peck-80           Thunder-110        Thunderbolt-90          Discharge-80                   200
+            Musharna               Psychic                                  Psychic-90       Zen Headbutt-80            Psybeam-65              Round-60                   125
+              Flygon                Ground                Dragon        Signal Beam-75         Rock Slide-75        Earthquake-100               Bite-60                    67
+              Zapdos              Electric                Flying         Drill Peck-80         Steel Wing-70              Round-60                Fly-90                   148
+             Snorlax                Normal                                Blizzard-110              Round-60               Surf-90           Strength-80                   118
+Iteration: 24
+Iteration: 25
+Iteration: 26
+Iteration: 27
+Iteration: 28
+Iteration: 29
+Iteration: 30
+Experiment 1 duration: 8009.333792

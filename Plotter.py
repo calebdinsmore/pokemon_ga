@@ -1,6 +1,5 @@
 # pylint: disable=C
 import matplotlib.pyplot as plt
-import plotly.plotly as py
 import numpy as np
 
 class Plotter(object):
