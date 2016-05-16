@@ -1,0 +1,116 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -1.434014
+	Record: [-0.41904761904761906, -0.23537414965986395, -0.7795918367346939]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+          Ferrothorn                 Grass                 Steel           Strength-80        Thunderbolt-90          Seed Bomb-80           Thunder-110                   132
+           Hydreigon                  Dark                Dragon           Strength-80         Steel Wing-70          Body Slam-85       Flash Cannon-80                    68
+              Kyurem                Dragon                   Ice                Fly-90        Hyper Voice-90                Cut-50          Blizzard-110                    91
+             Snorlax                Normal                               Rock Slide-75           Thunder-110        Shadow Ball-80       Zen Headbutt-80                   131
+             Snorlax                Normal                                 Strength-80           Thunder-110       Focus Blast-120        Brick Break-75                   197
+            Hariyama              Fighting                               Poison Jab-80        Stone Edge-100       Bullet Punch-40             Tackle-50                    75
+Iteration: 2
+Iteration: 3
+New fittest: -0.979685
+	Record: [-0.5578231292517006, 0.020314547837483616, -0.4421768707482993]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+          Ferrothorn                 Grass                 Steel           Strength-80        Thunderbolt-90          Seed Bomb-80           Thunder-110                   126
+           Porygon-Z                Normal                                Discharge-80            Psychic-90            Psybeam-65             Tackle-50                   160
+              Kyurem                Dragon                   Ice                Fly-90        Hyper Voice-90                Cut-50          Blizzard-110                   131
+             Snorlax                Normal                               Rock Slide-75           Thunder-110        Shadow Ball-80       Zen Headbutt-80                   110
+             Snorlax                Normal                                 Strength-80           Thunder-110       Focus Blast-120        Brick Break-75                   180
+            Hariyama              Fighting                               Poison Jab-80        Stone Edge-100       Bullet Punch-40             Tackle-50                   106
+Iteration: 4
+Iteration: 5
+New fittest: -0.959393
+	Record: [-0.5384353741496599, 0.014416775884665793, -0.43537414965986393]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+          Ferrothorn                 Grass                 Steel           Strength-80        Thunderbolt-90          Seed Bomb-80           Thunder-110                   126
+           Porygon-Z                Normal                                Discharge-80            Psychic-90            Psybeam-65             Tackle-50                   103
+              Kyurem                Dragon                   Ice                Fly-90        Hyper Voice-90                Cut-50          Blizzard-110                   108
+             Snorlax                Normal                               Rock Slide-75           Thunder-110        Shadow Ball-80       Zen Headbutt-80                   113
+             Snorlax                Normal                                 Strength-80           Thunder-110       Focus Blast-120        Brick Break-75                   163
+            Hariyama              Fighting                               Poison Jab-80        Stone Edge-100       Bullet Punch-40             Tackle-50                   103
+Iteration: 6
+Iteration: 7
+New fittest: -0.586577
+	Record: [-0.2653061224489796, 0.001177856301531213, -0.3224489795918367]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80              Round-60           Thunder-110               Surf-90                   142
+           Porygon-Z                Normal                                Discharge-80            Psychic-90            Psybeam-65             Tackle-50                   146
+              Kyurem                Dragon                   Ice                Fly-90        Hyper Voice-90                Cut-50          Blizzard-110                    79
+             Snorlax                Normal                               Rock Slide-75           Thunder-110        Shadow Ball-80       Zen Headbutt-80                   120
+             Snorlax                Normal                                 Strength-80           Thunder-110       Focus Blast-120        Brick Break-75                   170
+            Hariyama              Fighting                               Poison Jab-80        Stone Edge-100       Bullet Punch-40             Tackle-50                    91
+Iteration: 8
+Iteration: 9
+Iteration: 10
+New fittest: -0.557112
+	Record: [-0.2503401360544218, 0.012956419316843345, -0.3197278911564626]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80              Round-60           Thunder-110               Surf-90                   143
+           Porygon-Z                Normal                                Discharge-80            Psychic-90            Psybeam-65             Tackle-50                   146
+              Kyurem                Dragon                   Ice                Fly-90        Hyper Voice-90                Cut-50          Blizzard-110                   105
+             Snorlax                Normal                               Rock Slide-75           Thunder-110        Shadow Ball-80       Zen Headbutt-80                   110
+             Snorlax                Normal                                 Strength-80           Thunder-110       Focus Blast-120        Brick Break-75                   190
+            Hariyama              Fighting                               Poison Jab-80        Stone Edge-100       Bullet Punch-40             Tackle-50                    90
+Iteration: 11
+New fittest: -0.544722
+	Record: [-0.2707482993197279, 0.04711425206124853, -0.32108843537414966]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80              Round-60           Thunder-110               Surf-90                   152
+           Porygon-Z                Normal                                Discharge-80            Psychic-90            Psybeam-65             Tackle-50                   166
+              Kyurem                Dragon                   Ice                Fly-90        Hyper Voice-90                Cut-50          Blizzard-110                    87
+             Snorlax                Normal                               Rock Slide-75           Thunder-110        Shadow Ball-80       Zen Headbutt-80                   104
+             Snorlax                Normal                                 Strength-80           Thunder-110       Focus Blast-120        Brick Break-75                   189
+            Hariyama              Fighting                               Poison Jab-80        Stone Edge-100       Bullet Punch-40             Tackle-50                   102
+Iteration: 12
+Iteration: 13
+Iteration: 14
+New fittest: -0.493205
+	Record: [0.05509478672985782, -0.2571428571428571, -0.291156462585034]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80              Round-60           Thunder-110               Surf-90                   144
+               Hoopa               Psychic                 Ghost              Round-60        Energy Ball-90            Psychic-90        Thunderbolt-90                   237
+              Kyurem                Dragon                   Ice                Fly-90        Hyper Voice-90                Cut-50          Blizzard-110                   107
+             Snorlax                Normal                               Rock Slide-75           Thunder-110        Shadow Ball-80       Zen Headbutt-80                   119
+             Snorlax                Normal                                 Strength-80           Thunder-110       Focus Blast-120        Brick Break-75                   195
+            Hariyama              Fighting                               Poison Jab-80        Stone Edge-100       Bullet Punch-40             Tackle-50                    79
+Iteration: 15
+Iteration: 16
+Iteration: 17
+Iteration: 18
+New fittest: -0.480106
+	Record: [0.07227488151658767, -0.24625850340136055, -0.30612244897959184]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80              Round-60           Thunder-110               Surf-90                   151
+               Hoopa               Psychic                 Ghost              Round-60        Energy Ball-90            Psychic-90        Thunderbolt-90                   241
+              Kyurem                Dragon                   Ice                Fly-90        Hyper Voice-90                Cut-50          Blizzard-110                   106
+             Snorlax                Normal                               Rock Slide-75           Thunder-110        Shadow Ball-80       Zen Headbutt-80                   108
+             Snorlax                Normal                                 Strength-80           Thunder-110       Focus Blast-120        Brick Break-75                   179
+            Hariyama              Fighting                               Poison Jab-80        Stone Edge-100       Bullet Punch-40             Tackle-50                    97
+Iteration: 19
+Iteration: 20
+Iteration: 21
+Iteration: 22
+Iteration: 23
+Iteration: 24
+Iteration: 25
+Iteration: 26
+Iteration: 27
+Iteration: 28
+New fittest: -0.432838
+	Record: [0.07464454976303317, -0.20136054421768707, -0.30612244897959184]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80              Round-60           Thunder-110               Surf-90                   149
+               Hoopa               Psychic                 Ghost              Round-60        Energy Ball-90            Psychic-90        Thunderbolt-90                   231
+              Kyurem                Dragon                   Ice                Fly-90        Hyper Voice-90                Cut-50          Blizzard-110                    96
+             Snorlax                Normal                               Rock Slide-75           Thunder-110        Shadow Ball-80       Zen Headbutt-80                   112
+             Snorlax                Normal                                 Strength-80           Thunder-110       Focus Blast-120        Brick Break-75                   175
+            Hariyama              Fighting                               Poison Jab-80        Stone Edge-100       Bullet Punch-40             Tackle-50                    99
+Iteration: 29
+Iteration: 30
+Experiment 1 duration: 8395.497549

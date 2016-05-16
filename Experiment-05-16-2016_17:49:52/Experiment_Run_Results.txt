@@ -1,0 +1,143 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -2.979592
+	Record: [-0.6857142857142857, -1.3673469387755102, -0.926530612244898]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Zapdos              Electric                Flying          Discharge-80         Steel Wing-70                Fly-90           Thunder-110                    59
+            Meloetta                Normal               Psychic            Psychic-90        Shadow Ball-80        Hyper Voice-90        Brick Break-75                   226
+             Crustle                   Bug                  Rock              Round-60          X-Scissor-80         Poison Jab-80              Slash-70                    93
+            Whiscash                 Water                Ground              Scald-80               Surf-90          Aqua Tail-90              Spark-65                    86
+           Cresselia               Psychic                                    Round-60         Psycho Cut-70          Confusion-50          Moonblast-95                    93
+             Solrock                  Rock               Psychic            Psychic-90         Rock Throw-50        Earthquake-100         Rock Slide-75                    69
+Iteration: 2
+New fittest: -2.474830
+	Record: [-0.5006802721088436, -1.1564625850340136, -0.817687074829932]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Zapdos              Electric                Flying          Discharge-80         Steel Wing-70           Thunder-110                Fly-90                    61
+            Meloetta                Normal               Psychic            Psychic-90        Shadow Ball-80        Hyper Voice-90        Brick Break-75                   137
+             Crustle                   Bug                  Rock              Round-60          X-Scissor-80         Poison Jab-80              Slash-70                   105
+            Whiscash                 Water                Ground              Scald-80               Surf-90          Aqua Tail-90              Spark-65                    90
+          Conkeldurr              Fighting                                    Round-60         Rock Throw-50        Stone Edge-100        Brick Break-75                   109
+            Floatzel                 Water                                     Surf-90       Focus Blast-120        Hydro Pump-110           Headbutt-70                    41
+Iteration: 3
+New fittest: -2.122449
+	Record: [-0.5238095238095238, -0.9972789115646259, -0.601360544217687]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Zapdos              Electric                Flying          Discharge-80         Steel Wing-70           Thunder-110                Fly-90                   110
+            Meloetta                Normal               Psychic            Psychic-90        Shadow Ball-80        Hyper Voice-90        Brick Break-75                   100
+          Seismitoad                 Water                Ground        Bubble Beam-65              Round-60             Uproar-90        Brick Break-75                   183
+            Whiscash                 Water                Ground              Scald-80               Surf-90          Aqua Tail-90              Spark-65                    70
+              Gogoat                 Grass                                Seed Bomb-80              Round-60        Energy Ball-90         Leaf Blade-90                   113
+            Floatzel                 Water                                     Surf-90       Focus Blast-120        Hydro Pump-110           Headbutt-70                    96
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+New fittest: -1.908844
+	Record: [-0.5401360544217687, -0.8068027210884354, -0.5619047619047619]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Zapdos              Electric                Flying          Discharge-80         Steel Wing-70           Thunder-110                Fly-90                    94
+             Snorlax                Normal                                Body Slam-85             Crunch-80        Earthquake-100        Brick Break-75                   215
+            Swampert                 Water                Ground        Stone Edge-100             Uproar-90          Waterfall-80           Strength-80                   145
+            Whiscash                 Water                Ground              Scald-80               Surf-90          Aqua Tail-90              Spark-65                   159
+            Clefable                 Fairy                                    Pound-40        Shadow Ball-80           Ice Beam-90        Thunderbolt-90                   118
+           Wartortle                 Water                              Brick Break-75       Dragon Pulse-85        Water Pulse-60           Strength-80                    29
+Iteration: 8
+New fittest: -1.295238
+	Record: [-0.42993197278911566, -0.582312925170068, -0.2829931972789116]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Zapdos              Electric                Flying          Discharge-80         Steel Wing-70           Thunder-110                Fly-90                    96
+             Snorlax                Normal                                Body Slam-85             Crunch-80        Earthquake-100        Brick Break-75                   249
+             Snorlax                Normal                                Body Slam-85             Crunch-80           Ice Beam-90             Tackle-50                   223
+            Whiscash                 Water                Ground              Scald-80               Surf-90          Aqua Tail-90              Spark-65                   163
+            Clefable                 Fairy                                    Pound-40        Shadow Ball-80           Ice Beam-90        Thunderbolt-90                   121
+           Diggersby                Normal                Ground              Round-60        Earthquake-100           Strength-80         Rock Slide-75                    45
+Iteration: 9
+New fittest: -1.091156
+	Record: [-0.08163265306122448, -0.26666666666666666, -0.7428571428571429]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost            Psychic-90            Psybeam-65       Focus Blast-120        Energy Ball-90                    53
+             Snorlax                Normal                                Body Slam-85             Crunch-80        Brick Break-75        Earthquake-100                   287
+             Snorlax                Normal                                Body Slam-85             Crunch-80           Ice Beam-90             Tackle-50                   274
+             Pangoro              Fighting                  Dark         Dark Pulse-80        Stone Edge-100         Poison Jab-80         Rock Slide-75                    24
+              Kyurem                Dragon                   Ice        Dragon Claw-80       Dragon Pulse-85          Blizzard-110           Strength-80                   225
+             Walrein                   Ice                 Water              Round-60          Water Gun-40           Ice Beam-90          Waterfall-80                    94
+Iteration: 10
+New fittest: -0.951020
+	Record: [-0.19047619047619047, -0.33197278911564626, -0.42857142857142855]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost            Psychic-90            Psybeam-65       Focus Blast-120        Energy Ball-90                    50
+             Snorlax                Normal                                Body Slam-85             Crunch-80        Brick Break-75        Earthquake-100                   247
+             Snorlax                Normal                                Body Slam-85             Crunch-80           Ice Beam-90             Tackle-50                   247
+             Pangoro              Fighting                  Dark         Dark Pulse-80        Stone Edge-100         Poison Jab-80         Rock Slide-75                    39
+              Kyurem                Dragon                   Ice        Dragon Claw-80       Dragon Pulse-85          Blizzard-110           Strength-80                   217
+             Walrein                   Ice                 Water              Round-60          Water Gun-40           Ice Beam-90          Waterfall-80                   104
+Iteration: 11
+Iteration: 12
+New fittest: -0.900680
+	Record: [-0.11292517006802721, -0.3442176870748299, -0.4435374149659864]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost            Psychic-90            Psybeam-65       Focus Blast-120        Energy Ball-90                    58
+             Snorlax                Normal                                Body Slam-85             Crunch-80        Earthquake-100        Brick Break-75                   163
+             Snorlax                Normal                                Body Slam-85             Crunch-80           Ice Beam-90             Tackle-50                   242
+             Pangoro              Fighting                  Dark         Dark Pulse-80        Stone Edge-100         Poison Jab-80         Rock Slide-75                    35
+              Kyurem                Dragon                   Ice        Dragon Claw-80       Dragon Pulse-85          Blizzard-110           Strength-80                   202
+             Walrein                   Ice                 Water              Round-60          Water Gun-40           Ice Beam-90          Waterfall-80                   115
+Iteration: 13
+New fittest: -0.857143
+	Record: [-0.08163265306122448, -0.2897959183673469, -0.4857142857142857]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost            Psychic-90            Psybeam-65       Focus Blast-120        Energy Ball-90                    76
+             Snorlax                Normal                                Body Slam-85             Crunch-80        Earthquake-100        Brick Break-75                   263
+             Snorlax                Normal                                Body Slam-85             Crunch-80           Ice Beam-90             Tackle-50                   280
+             Pangoro              Fighting                  Dark         Dark Pulse-80        Stone Edge-100         Poison Jab-80         Rock Slide-75                    35
+              Kyurem                Dragon                   Ice        Dragon Claw-80       Dragon Pulse-85          Blizzard-110           Strength-80                   221
+             Walrein                   Ice                 Water              Round-60          Water Gun-40           Ice Beam-90          Waterfall-80                   183
+Iteration: 14
+New fittest: -0.651105
+	Record: [0.029166666666666667, -0.5238095238095238, -0.1564625850340136]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost            Psychic-90            Psybeam-65       Focus Blast-120        Energy Ball-90                   119
+             Snorlax                Normal                                Body Slam-85             Crunch-80        Earthquake-100        Brick Break-75                   195
+             Snorlax                Normal                                Body Slam-85             Crunch-80           Ice Beam-90             Tackle-50                   261
+          Escavalier                   Bug                 Steel              Round-60               Peck-35        Energy Ball-90          X-Scissor-80                   193
+              Kyurem                Dragon                   Ice        Dragon Claw-80       Dragon Pulse-85          Blizzard-110           Strength-80                   187
+             Walrein                   Ice                 Water              Round-60          Water Gun-40           Ice Beam-90          Waterfall-80                   117
+Iteration: 15
+New fittest: -0.465731
+	Record: [0.016666666666666666, -0.5115646258503401, 0.029166666666666667]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost            Psychic-90            Psybeam-65       Focus Blast-120        Energy Ball-90                   176
+             Snorlax                Normal                                Body Slam-85             Crunch-80        Earthquake-100        Brick Break-75                   301
+             Snorlax                Normal                                Body Slam-85             Crunch-80           Ice Beam-90             Tackle-50                   274
+          Escavalier                   Bug                 Steel              Round-60               Peck-35        Energy Ball-90          X-Scissor-80                   194
+              Kyurem                Dragon                   Ice        Dragon Claw-80       Dragon Pulse-85          Blizzard-110           Strength-80                   216
+             Walrein                   Ice                 Water              Round-60          Water Gun-40           Ice Beam-90          Waterfall-80                    75
+Iteration: 16
+Iteration: 17
+Iteration: 18
+Iteration: 19
+Iteration: 20
+Iteration: 21
+Iteration: 22
+Iteration: 23
+Iteration: 24
+Iteration: 25
+Iteration: 26
+Iteration: 27
+Iteration: 28
+New fittest: -0.420269
+	Record: [-0.19863945578231293, -0.2857142857142857, 0.06408450704225352]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+          Escavalier                   Bug                 Steel          Iron Head-80           Bug Buzz-90              Slash-70         Poison Jab-80                   286
+             Snorlax                Normal                                Body Slam-85             Crunch-80        Earthquake-100        Brick Break-75                   270
+             Snorlax                Normal                                Body Slam-85             Crunch-80           Ice Beam-90             Tackle-50                   269
+          Escavalier                   Bug                 Steel              Round-60               Peck-35        Energy Ball-90          X-Scissor-80                   186
+              Kyurem                Dragon                   Ice        Dragon Claw-80       Dragon Pulse-85          Blizzard-110           Strength-80                   243
+             Walrein                   Ice                 Water              Round-60          Water Gun-40           Ice Beam-90          Waterfall-80                   104
+Iteration: 29
+Iteration: 30
+Experiment 1 duration: 5694.171786

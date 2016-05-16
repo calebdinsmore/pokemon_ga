@@ -1,0 +1,143 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -2.072259
+	Record: [0.12093862815884476, -1.3142857142857143, -0.8789115646258503]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost          Confusion-50        Thunderbolt-90        Brick Break-75       Focus Blast-120                    30
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90           Ice Beam-90               Surf-90                   174
+          Lickilicky                Normal                                Blizzard-110                Cut-50              Round-60         Rock Slide-75                    78
+             Crustle                   Bug                  Rock        Stone Edge-100        Earthquake-100              Round-60           Strength-80                    36
+               Hoopa               Psychic                 Ghost            Psybeam-65          Confusion-50        Brick Break-75      Phantom Force-90                    39
+           Cyndaquil                  Fire                                      Cut-50             Tackle-50         Lava Plume-80       Flamethrower-90                    14
+Iteration: 2
+New fittest: -1.826536
+	Record: [0.1884297520661157, -1.034013605442177, -0.9809523809523809]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost          Confusion-50        Thunderbolt-90        Brick Break-75       Focus Blast-120                    48
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90               Surf-90           Ice Beam-90                   166
+          Lickilicky                Normal                                Blizzard-110                Cut-50              Round-60         Rock Slide-75                    84
+             Crustle                   Bug                  Rock        Stone Edge-100        Earthquake-100              Round-60           Strength-80                    50
+               Hoopa               Psychic                 Ghost            Psybeam-65        Brick Break-75          Confusion-50      Phantom Force-90                    39
+            Ursaring                Normal                                      Cut-50         Play Rough-90       Focus Blast-120        Earthquake-100                   128
+Iteration: 3
+New fittest: -1.680209
+	Record: [0.24496124031007752, -0.9170068027210885, -1.0081632653061225]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+               Hoopa               Psychic                 Ghost        Brick Break-75        Thunderbolt-90          Confusion-50       Focus Blast-120                    81
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90           Ice Beam-90               Surf-90                   168
+          Lickilicky                Normal                                Blizzard-110                Cut-50              Round-60         Rock Slide-75                    69
+             Suicune                 Water                              Hydro Pump-110              Scald-80       Extrasensory-80           Ice Beam-90                    95
+               Hoopa               Psychic                 Ghost            Psybeam-65          Confusion-50        Brick Break-75      Phantom Force-90                    34
+             Manaphy                 Water                                    Round-60               Surf-90           Ice Beam-90        Shadow Ball-80                    88
+Iteration: 4
+New fittest: -1.659524
+	Record: [-0.6653061224489796, -0.33197278911564626, -0.6622448979591836]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Heatran                  Fire                 Steel       Flash Cannon-80         Dark Pulse-80         Rock Slide-75       Flamethrower-90                    98
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90           Ice Beam-90               Surf-90                   151
+          Lickilicky                Normal                                Blizzard-110                Cut-50              Round-60         Rock Slide-75                    68
+             Heatran                  Fire                 Steel           Strength-80             Crunch-80         Dark Pulse-80          Heat Wave-95                    55
+            Vaporeon                 Water                                Blizzard-110              Scald-80           Strength-80          Water Gun-40                   124
+           Registeel                 Steel                                Iron Head-80       Flash Cannon-80        Thunderbolt-90        Earthquake-100                   184
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+New fittest: -1.540136
+	Record: [-0.4421768707482993, -0.3564625850340136, -0.7414965986394558]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                             Flamethrower-90         Rock Slide-75           Strength-80       Focus Blast-120                   156
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90               Surf-90           Ice Beam-90                   152
+          Bouffalant                Normal                              Stone Edge-100        Horn Attack-65               Surf-90         Rock Climb-90                   189
+            Arcanine                  Fire                                Body Slam-85              Round-60             Crunch-80      Extreme Speed-80                    81
+            Vaporeon                 Water                                Blizzard-110              Scald-80           Strength-80          Water Gun-40                    86
+           Spiritomb                 Ghost                  Dark            Psychic-90              Round-60         Dark Pulse-80       Ominous Wind-60                    25
+Iteration: 9
+Iteration: 10
+New fittest: -1.443537
+	Record: [-0.272108843537415, -0.4340136054421769, -0.7374149659863946]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                             Focus Blast-120           Strength-80         Rock Slide-75       Flamethrower-90                   140
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90           Ice Beam-90               Surf-90                   148
+          Bouffalant                Normal                              Stone Edge-100        Horn Attack-65               Surf-90         Rock Climb-90                   214
+            Arcanine                  Fire                                Body Slam-85              Round-60             Crunch-80      Extreme Speed-80                   105
+            Vaporeon                 Water                                Blizzard-110              Scald-80           Strength-80          Water Gun-40                    81
+           Spiritomb                 Ghost                  Dark            Psychic-90              Round-60         Dark Pulse-80       Ominous Wind-60                    23
+Iteration: 11
+New fittest: -0.764271
+	Record: [0.024844720496894408, -0.22993197278911565, -0.5591836734693878]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                             Flamethrower-90         Rock Slide-75           Strength-80       Focus Blast-120                   149
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90               Surf-90           Ice Beam-90                   152
+             Snorlax                Normal                                   Tackle-50        Brick Break-75           Ice Beam-90           Strength-80                   242
+            Vaporeon                 Water                                   Tackle-50          Waterfall-80               Bite-60        Hydro Pump-110                    83
+            Vaporeon                 Water                                Blizzard-110              Scald-80           Strength-80          Water Gun-40                    74
+           Spiritomb                 Ghost                  Dark            Psychic-90              Round-60         Dark Pulse-80       Ominous Wind-60                    24
+Iteration: 12
+Iteration: 13
+Iteration: 14
+Iteration: 15
+New fittest: -0.007542
+	Record: [0.09664429530201342, -0.3619047619047619, 0.25771812080536916]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                             Focus Blast-120           Strength-80         Rock Slide-75       Flamethrower-90                   205
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90               Surf-90           Ice Beam-90                   125
+             Snorlax                Normal                                   Tackle-50        Brick Break-75           Ice Beam-90           Strength-80                   229
+            Swampert                 Water                Ground              Scald-80          Waterfall-80               Bite-60          Water Gun-40                   184
+            Swampert                 Water                Ground             Tackle-50        Earthquake-100        Brick Break-75           Strength-80                   291
+           Spiritomb                 Ghost                  Dark            Psychic-90              Round-60         Dark Pulse-80       Ominous Wind-60                   159
+Iteration: 16
+Iteration: 17
+New fittest: 0.021294
+	Record: [0.11073825503355705, -0.21360544217687075, 0.12416107382550336]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                             Focus Blast-120           Strength-80         Rock Slide-75       Flamethrower-90                   150
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90               Surf-90           Ice Beam-90                   164
+             Snorlax                Normal                                   Tackle-50        Brick Break-75           Strength-80           Ice Beam-90                   205
+            Swampert                 Water                Ground              Scald-80          Waterfall-80               Bite-60          Water Gun-40                   106
+            Swampert                 Water                Ground             Tackle-50        Earthquake-100        Brick Break-75           Strength-80                   281
+           Spiritomb                 Ghost                  Dark            Psychic-90              Round-60         Dark Pulse-80       Ominous Wind-60                   174
+Iteration: 18
+New fittest: 0.090357
+	Record: [0.16845637583892617, -0.3183673469387755, 0.24026845637583893]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                             Flamethrower-90         Rock Slide-75           Strength-80       Focus Blast-120                   156
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90               Surf-90           Ice Beam-90                   180
+             Snorlax                Normal                                   Tackle-50        Brick Break-75           Ice Beam-90           Strength-80                   210
+            Swampert                 Water                Ground              Scald-80          Waterfall-80               Bite-60          Water Gun-40                   120
+            Swampert                 Water                Ground             Tackle-50        Earthquake-100        Brick Break-75           Strength-80                   276
+           Spiritomb                 Ghost                  Dark            Psychic-90              Round-60         Dark Pulse-80       Ominous Wind-60                   189
+Iteration: 19
+Iteration: 20
+New fittest: 0.138976
+	Record: [0.13087248322147652, -0.24625850340136055, 0.2543624161073825]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                             Flamethrower-90         Rock Slide-75           Strength-80       Focus Blast-120                   190
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90               Surf-90           Ice Beam-90                   104
+             Snorlax                Normal                                   Tackle-50        Brick Break-75           Ice Beam-90           Strength-80                   217
+            Swampert                 Water                Ground              Scald-80          Waterfall-80               Bite-60          Water Gun-40                   250
+            Swampert                 Water                Ground             Tackle-50        Earthquake-100        Brick Break-75           Strength-80                   175
+           Spiritomb                 Ghost                  Dark            Psychic-90              Round-60         Dark Pulse-80       Ominous Wind-60                   131
+Iteration: 21
+New fittest: 0.151564
+	Record: [0.15906040268456376, -0.2585034013605442, 0.25100671140939596]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                             Flamethrower-90         Rock Slide-75           Strength-80       Focus Blast-120                   128
+             Snorlax                Normal                                Body Slam-85        Thunderbolt-90               Surf-90           Ice Beam-90                   164
+             Snorlax                Normal                                   Tackle-50        Brick Break-75           Ice Beam-90           Strength-80                   226
+            Swampert                 Water                Ground              Scald-80          Waterfall-80               Bite-60          Water Gun-40                   140
+            Swampert                 Water                Ground             Tackle-50        Earthquake-100        Brick Break-75           Strength-80                   256
+           Spiritomb                 Ghost                  Dark            Psychic-90              Round-60         Dark Pulse-80       Ominous Wind-60                   159
+Iteration: 22
+Iteration: 23
+Iteration: 24
+Iteration: 25
+Iteration: 26
+Iteration: 27
+Iteration: 28
+Iteration: 29
+Iteration: 30
+Experiment 1 duration: 5205.710247

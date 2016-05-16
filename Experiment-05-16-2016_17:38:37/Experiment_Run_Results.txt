@@ -1,0 +1,107 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -1.912925
+	Record: [-0.16870748299319727, -0.9918367346938776, -0.7523809523809524]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                             Flamethrower-90              Round-60        Thunderbolt-90           Thunder-110                   100
+           Excadrill                Ground                 Steel         Poison Jab-80           Strength-80         Rock Climb-90        Earthquake-100                   175
+            Munchlax                Normal                              Brick Break-75       Zen Headbutt-80               Surf-90        Earthquake-100                   141
+           Dunsparce                Normal                                Blizzard-110       Flamethrower-90        Thunderbolt-90        Earthquake-100                    39
+                Uxie               Psychic                             Extrasensory-80     Dazzling Gleam-80        Thunderbolt-90          Confusion-50                    54
+             Zygarde                Dragon                Ground              Round-60             Crunch-80       Focus Blast-120        Earthquake-100                    67
+Iteration: 2
+New fittest: -1.437376
+	Record: [0.023848684210526317, -0.7482993197278912, -0.7129251700680272]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Manaphy                 Water                                Blizzard-110        Shadow Ball-80        Bubble Beam-65              Round-60                    81
+             Snorlax                Normal                             Zen Headbutt-80            Psychic-90        Thunderbolt-90             Crunch-80                   111
+               Hoopa               Psychic                 Ghost            Psybeam-65        Shadow Ball-80            Psychic-90          Confusion-50                   309
+           Salamence                Dragon                Flying        Shadow Claw-70       Zen Headbutt-80              Round-60                Fly-90                    75
+          Hitmonchan              Fighting                               Fire Punch-75              Round-60         Rock Slide-75       Bullet Punch-40                    17
+             Zygarde                Dragon                Ground              Round-60             Crunch-80       Focus Blast-120        Earthquake-100                    72
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+New fittest: -1.320355
+	Record: [0.09325044404973357, -0.636734693877551, -0.7768707482993197]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Goodra                Dragon                               Iron Tail-100          Aqua Tail-90       Flamethrower-90       Focus Blast-120                    46
+             Snorlax                Normal                             Zen Headbutt-80            Psychic-90        Thunderbolt-90             Crunch-80                   130
+               Hoopa               Psychic                 Ghost            Psybeam-65        Shadow Ball-80            Psychic-90          Confusion-50                   284
+           Spiritomb                 Ghost                  Dark         Dark Pulse-80        Shadow Ball-80            Psychic-90       Ominous Wind-60                    68
+          Misdreavus                 Ghost                                  Psybeam-65     Dazzling Gleam-80           Thunder-110       Ominous Wind-60                    30
+             Zygarde                Dragon                Ground              Round-60             Crunch-80       Focus Blast-120        Earthquake-100                    56
+Iteration: 10
+Iteration: 11
+Iteration: 12
+Iteration: 13
+Iteration: 14
+Iteration: 15
+New fittest: -0.924242
+	Record: [0.13154069767441862, -0.5265306122448979, -0.5292517006802722]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Goodra                Dragon                               Iron Tail-100          Aqua Tail-90       Flamethrower-90       Focus Blast-120                    72
+             Snorlax                Normal                             Zen Headbutt-80            Psychic-90        Thunderbolt-90             Crunch-80                   114
+               Hoopa               Psychic                 Ghost            Psybeam-65        Shadow Ball-80            Psychic-90          Confusion-50                   253
+             Snorlax                Normal                              Brick Break-75       Zen Headbutt-80           Strength-80               Surf-90                   223
+             Furfrou                Normal                                     Bite-60              Round-60               Surf-90           Headbutt-70                   108
+             Zygarde                Dragon                Ground              Round-60             Crunch-80       Focus Blast-120        Earthquake-100                    59
+Iteration: 16
+New fittest: -0.545098
+	Record: [0.20864381520119224, -0.19863945578231293, -0.5551020408163265]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Goodra                Dragon                               Iron Tail-100          Aqua Tail-90       Flamethrower-90       Focus Blast-120                    79
+             Snorlax                Normal                             Zen Headbutt-80            Psychic-90        Thunderbolt-90             Crunch-80                   118
+               Hoopa               Psychic                 Ghost            Psybeam-65        Shadow Ball-80            Psychic-90          Confusion-50                   262
+             Snorlax                Normal                              Brick Break-75       Zen Headbutt-80           Strength-80               Surf-90                   215
+            Sunflora                 Grass                              Energy Ball-90          Seed Bomb-80        Sludge Bomb-90              Round-60                    62
+           Dragonite                Dragon                Flying      Dragon Breath-60                Cut-50           Ice Beam-90         Fire Punch-75                    75
+Iteration: 17
+Iteration: 18
+Iteration: 19
+Iteration: 20
+Iteration: 21
+Iteration: 22
+Iteration: 23
+Iteration: 24
+Iteration: 25
+Iteration: 26
+New fittest: -0.427205
+	Record: [0.14439655172413793, 0.035201149425287355, -0.6068027210884354]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Goodra                Dragon                               Iron Tail-100          Aqua Tail-90       Flamethrower-90       Focus Blast-120                    69
+             Snorlax                Normal                             Zen Headbutt-80            Psychic-90        Thunderbolt-90             Crunch-80                   110
+               Hoopa               Psychic                 Ghost            Psybeam-65        Shadow Ball-80            Psychic-90          Confusion-50                   219
+             Snorlax                Normal                              Brick Break-75       Zen Headbutt-80           Strength-80               Surf-90                   217
+              Celebi               Psychic                 Grass            Psychic-90        Energy Ball-90     Dazzling Gleam-80          Confusion-50                   107
+           Dragonite                Dragon                Flying      Dragon Breath-60                Cut-50           Ice Beam-90         Fire Punch-75                    62
+Iteration: 27
+Iteration: 28
+New fittest: -0.207243
+	Record: [0.17097701149425287, 0.02586206896551724, -0.40408163265306124]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Goodra                Dragon                               Iron Tail-100          Aqua Tail-90       Flamethrower-90       Focus Blast-120                    67
+             Snorlax                Normal                             Zen Headbutt-80            Psychic-90        Thunderbolt-90             Crunch-80                   140
+               Hoopa               Psychic                 Ghost            Psybeam-65        Shadow Ball-80            Psychic-90          Confusion-50                   216
+             Snorlax                Normal                              Brick Break-75       Zen Headbutt-80           Strength-80               Surf-90                   233
+              Celebi               Psychic                 Grass            Psychic-90        Energy Ball-90     Dazzling Gleam-80          Confusion-50                   112
+           Dragonite                Dragon                Flying      Dragon Breath-60                Cut-50           Ice Beam-90         Fire Punch-75                    71
+Iteration: 29
+Iteration: 30
+New fittest: -0.155606
+	Record: [0.21695402298850575, 0.004310344827586207, -0.3768707482993197]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Goodra                Dragon                               Iron Tail-100          Aqua Tail-90       Flamethrower-90       Focus Blast-120                    67
+             Snorlax                Normal                             Zen Headbutt-80            Psychic-90        Thunderbolt-90             Crunch-80                   121
+               Hoopa               Psychic                 Ghost            Psybeam-65        Shadow Ball-80            Psychic-90          Confusion-50                   205
+             Snorlax                Normal                              Brick Break-75       Zen Headbutt-80           Strength-80               Surf-90                   216
+              Celebi               Psychic                 Grass     Dazzling Gleam-80        Energy Ball-90            Psychic-90          Confusion-50                   112
+           Dragonite                Dragon                Flying      Dragon Breath-60                Cut-50           Ice Beam-90         Fire Punch-75                    73
+Experiment 1 duration: 5139.224542
