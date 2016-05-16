@@ -1,0 +1,94 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -1.526531
+	Record: [-0.7047619047619048, -0.3006802721088435, -0.5210884353741496]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+          Escavalier                   Bug                 Steel          Iron Head-80          X-Scissor-80        Energy Ball-90                Cut-50                   331
+          Bouffalant                Normal                                Iron Head-80        Earthquake-100         Rock Slide-75        Horn Attack-65                   123
+          Escavalier                   Bug                 Steel          Megahorn-120        Horn Attack-65          X-Scissor-80              Round-60                   317
+             Kingdra                 Water                Dragon               Surf-90          Blizzard-110       Dragon Pulse-85        Water Pulse-60                    72
+             Sylveon                 Fairy                                   Tackle-50               Bite-60         Fairy Wind-40        Shadow Ball-80                   145
+             Milotic                 Water                                     Surf-90          Blizzard-110       Dragon Pulse-85          Waterfall-80                    94
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+New fittest: -1.462784
+	Record: [-0.7523809523809524, 0.007964601769911504, -0.7183673469387755]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+           Magmortar                  Fire                              Earthquake-100           Strength-80            Psychic-90              Round-60                   111
+            Gyarados                 Water                Flying        Thunderbolt-90         Dark Pulse-80          Aqua Tail-90       Flamethrower-90                    34
+          Escavalier                   Bug                 Steel          Megahorn-120        Horn Attack-65          X-Scissor-80              Round-60                   336
+             Kingdra                 Water                Dragon               Surf-90          Blizzard-110       Dragon Pulse-85        Water Pulse-60                    75
+                 Muk                Poison                               Poison Jab-80       Shadow Punch-60        Brick Break-75       Flamethrower-90                   218
+            Vaporeon                 Water                                Blizzard-110          Water Gun-40              Scald-80        Water Pulse-60                   171
+Iteration: 6
+New fittest: -1.307447
+	Record: [-0.6938775510204082, 0.05309734513274336, -0.6666666666666666]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+           Magmortar                  Fire                              Earthquake-100           Strength-80            Psychic-90              Round-60                   106
+            Gyarados                 Water                Flying        Thunderbolt-90         Dark Pulse-80          Aqua Tail-90       Flamethrower-90                    41
+          Escavalier                   Bug                 Steel          Megahorn-120        Horn Attack-65          X-Scissor-80              Round-60                   372
+             Kingdra                 Water                Dragon               Surf-90          Blizzard-110       Dragon Pulse-85        Water Pulse-60                    86
+                 Muk                Poison                               Poison Jab-80       Shadow Punch-60        Brick Break-75       Flamethrower-90                   214
+            Vaporeon                 Water                                Blizzard-110          Water Gun-40              Scald-80        Water Pulse-60                   173
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+New fittest: -1.168835
+	Record: [-0.601360544217687, 0.15089285714285713, -0.7183673469387755]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+          Escavalier                   Bug                 Steel        Horn Attack-65              Slash-70       Focus Blast-120                Cut-50                    51
+            Gyarados                 Water                Flying        Thunderbolt-90         Dark Pulse-80          Aqua Tail-90       Flamethrower-90                    68
+          Escavalier                   Bug                 Steel          Megahorn-120        Horn Attack-65          X-Scissor-80              Round-60                   345
+             Kingdra                 Water                Dragon               Surf-90          Blizzard-110       Dragon Pulse-85        Water Pulse-60                    88
+                 Muk                Poison                               Poison Jab-80       Shadow Punch-60        Brick Break-75       Flamethrower-90                   186
+            Vaporeon                 Water                                Blizzard-110          Water Gun-40              Scald-80        Water Pulse-60                   174
+Iteration: 11
+Iteration: 12
+Iteration: 13
+New fittest: -1.010884
+	Record: [-0.24761904761904763, -0.1619047619047619, -0.601360544217687]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Meloetta                Normal               Psychic           Strength-80        Shadow Ball-80              Round-60           Thunder-110                   168
+             Zygarde                Dragon                Ground       Land's Wrath-90       Dragon Pulse-85        Earthquake-100             Crunch-80                   124
+          Escavalier                   Bug                 Steel          X-Scissor-80        Horn Attack-65          Megahorn-120              Round-60                   271
+              Zapdos              Electric                Flying        Thunderbolt-90         Steel Wing-70               Peck-35         Drill Peck-80                    61
+            Beheeyem               Psychic                              Thunderbolt-90       Zen Headbutt-80            Psychic-90              Round-60                   120
+            Vaporeon                 Water                                     Surf-90        Water Pulse-60              Scald-80           Ice Beam-90                   142
+Iteration: 14
+Iteration: 15
+Iteration: 16
+Iteration: 17
+Iteration: 18
+Iteration: 19
+Iteration: 20
+Iteration: 21
+Iteration: 22
+Iteration: 23
+Iteration: 24
+Iteration: 25
+Iteration: 26
+Iteration: 27
+Iteration: 28
+Iteration: 29
+Iteration: 30
+Experiment 1 duration: 9531.133690
+
+
+Experiment Number 2
+--------------------
+Iteration: 1
+New fittest: -1.268027
+	Record: [-0.1782312925170068, -0.5414965986394558, -0.5482993197278911]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Zapdos              Electric                Flying        Thunderbolt-90         Drill Peck-80              Round-60                Fly-90                    60
+             Snorlax                Normal                                     Surf-90        Brick Break-75           Thunder-110       Flamethrower-90                    83
+          Escavalier                   Bug                 Steel               Peck-35          X-Scissor-80       Focus Blast-120                Cut-50                   185
+              Zapdos              Electric                Flying        Thunderbolt-90         Steel Wing-70               Peck-35         Drill Peck-80                    73
+          Escavalier                   Bug                 Steel              Slash-70          X-Scissor-80              Round-60           Headbutt-70                   250
+          Ferrothorn                 Grass                 Steel        Mirror Shot-65        Power Whip-120         Rock Climb-90          Seed Bomb-80                   135
