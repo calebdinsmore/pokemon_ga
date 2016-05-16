@@ -1,0 +1,264 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -0.760544
+	Record: [-0.2795918367346939, -0.2564625850340136, -0.22448979591836735]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Gyarados                 Water                Flying          Blizzard-110               Bite-60          Aqua Tail-90           Ice Beam-90                    73
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   135
+             Jirachi                 Steel               Psychic        Thunderbolt-90            Psychic-90     Dazzling Gleam-80       Flash Cannon-80                    94
+             Snorlax                Normal                                   Tackle-50            Psychic-90        Earthquake-100        Shadow Ball-80                   214
+             Exploud                Normal                              Hyper Voice-90        Earthquake-100           Strength-80        Brick Break-75                   122
+          Escavalier                   Bug                 Steel           Bug Buzz-90       Focus Blast-120         Poison Jab-80          Megahorn-120                   272
+Iteration: 2
+New fittest: -0.712245
+	Record: [-0.14217687074829932, -0.2639455782312925, -0.30612244897959184]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Gyarados                 Water                Flying          Blizzard-110               Bite-60          Aqua Tail-90           Ice Beam-90                    81
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   141
+             Mesprit               Psychic                                Blizzard-110           Thunder-110     Dazzling Gleam-80       Extrasensory-80                    72
+             Snorlax                Normal                                   Tackle-50            Psychic-90        Earthquake-100        Shadow Ball-80                   190
+             Heatran                  Fire                 Steel          Heat Wave-95        Earth Power-90         Rock Slide-75          Iron Head-80                   190
+          Escavalier                   Bug                 Steel           Bug Buzz-90       Focus Blast-120         Poison Jab-80          Megahorn-120                   299
+Iteration: 3
+New fittest: -0.425170
+	Record: [-0.06938775510204082, -0.10748299319727891, -0.24829931972789115]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Gyarados                 Water                Flying          Blizzard-110               Bite-60          Aqua Tail-90           Ice Beam-90                    63
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   143
+             Mesprit               Psychic                                Blizzard-110           Thunder-110     Dazzling Gleam-80       Extrasensory-80                    66
+             Snorlax                Normal                                   Tackle-50            Psychic-90        Earthquake-100        Shadow Ball-80                   188
+             Heatran                  Fire                 Steel          Heat Wave-95        Earth Power-90         Rock Slide-75          Iron Head-80                    73
+          Escavalier                   Bug                 Steel           Bug Buzz-90       Focus Blast-120         Poison Jab-80          Megahorn-120                   280
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Iteration: 12
+Iteration: 13
+Iteration: 14
+New fittest: -0.228214
+	Record: [0.0072992700729927005, 0.13795620437956205, -0.373469387755102]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Gyarados                 Water                Flying          Blizzard-110               Bite-60          Aqua Tail-90           Ice Beam-90                    70
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                    92
+             Mesprit               Psychic                                Blizzard-110           Thunder-110     Dazzling Gleam-80       Extrasensory-80                    62
+             Snorlax                Normal                                   Tackle-50            Psychic-90        Earthquake-100        Shadow Ball-80                   206
+          Kangaskhan                Normal                             Flamethrower-90                Cut-50        Earthquake-100           Ice Beam-90                    84
+          Escavalier                   Bug                 Steel           Bug Buzz-90          Megahorn-120         Poison Jab-80       Focus Blast-120                   219
+Iteration: 15
+New fittest: -0.181335
+	Record: [-0.017687074829931974, 0.20437956204379562, -0.36802721088435375]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+            Gyarados                 Water                Flying          Blizzard-110               Bite-60          Aqua Tail-90           Ice Beam-90                    65
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   117
+             Mesprit               Psychic                                Blizzard-110           Thunder-110     Dazzling Gleam-80       Extrasensory-80                    66
+             Snorlax                Normal                                   Tackle-50        Shadow Ball-80        Earthquake-100            Psychic-90                   192
+          Kangaskhan                Normal                             Flamethrower-90                Cut-50        Earthquake-100           Ice Beam-90                    62
+          Escavalier                   Bug                 Steel           Bug Buzz-90          Megahorn-120         Poison Jab-80       Focus Blast-120                   221
+Iteration: 16
+Iteration: 17
+Iteration: 18
+Iteration: 19
+Iteration: 20
+Iteration: 21
+Iteration: 22
+Iteration: 23
+Iteration: 24
+Iteration: 25
+Iteration: 26
+Iteration: 27
+Iteration: 28
+Iteration: 29
+New fittest: -0.179143
+	Record: [0.078, -0.09047619047619047, -0.16666666666666666]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   162
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   108
+             Mesprit               Psychic                                Blizzard-110           Thunder-110     Dazzling Gleam-80       Extrasensory-80                    72
+             Snorlax                Normal                                   Tackle-50        Shadow Ball-80        Earthquake-100            Psychic-90                   198
+          Kangaskhan                Normal                             Flamethrower-90                Cut-50        Earthquake-100           Ice Beam-90                    90
+          Escavalier                   Bug                 Steel           Bug Buzz-90          Megahorn-120         Poison Jab-80       Focus Blast-120                   212
+Iteration: 30
+
+
+Experiment Number 2
+--------------------
+Iteration: 1
+New fittest: -0.380137
+	Record: [0.10557768924302789, -0.2789115646258503, -0.20680272108843537]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   215
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   135
+             Mesprit               Psychic                                Blizzard-110           Thunder-110     Dazzling Gleam-80       Extrasensory-80                    66
+             Snorlax                Normal                                   Tackle-50        Shadow Ball-80        Earthquake-100            Psychic-90                   230
+           Hippowdon                Ground                                   Crunch-80               Bite-60           Strength-80         Rock Slide-75                    37
+          Escavalier                   Bug                 Steel           Bug Buzz-90          Megahorn-120         Poison Jab-80       Focus Blast-120                   255
+Iteration: 2
+Iteration: 3
+New fittest: -0.364946
+	Record: [0.12416998671978752, -0.22925170068027212, -0.2598639455782313]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   155
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   142
+             Mesprit               Psychic                                Blizzard-110           Thunder-110     Dazzling Gleam-80       Extrasensory-80                    62
+             Snorlax                Normal                                   Tackle-50        Shadow Ball-80        Earthquake-100            Psychic-90                   236
+           Hippowdon                Ground                                   Crunch-80               Bite-60           Strength-80         Rock Slide-75                    47
+          Escavalier                   Bug                 Steel           Bug Buzz-90          Megahorn-120         Poison Jab-80       Focus Blast-120                   295
+Iteration: 4
+Iteration: 5
+New fittest: -0.257190
+	Record: [0.09247027741083223, -0.11972789115646258, -0.22993197278911565]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   217
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   136
+             Mesprit               Psychic                                Blizzard-110           Thunder-110     Dazzling Gleam-80       Extrasensory-80                    67
+             Snorlax                Normal                                   Tackle-50        Shadow Ball-80        Earthquake-100            Psychic-90                   214
+           Hippowdon                Ground                                   Crunch-80               Bite-60           Strength-80         Rock Slide-75                    37
+          Ferrothorn                 Grass                 Steel        Shadow Claw-70        Energy Ball-90       Flash Cannon-80           Thunder-110                   110
+Iteration: 6
+New fittest: -0.070244
+	Record: [0.19023136246786632, 0.10347043701799485, -0.36394557823129253]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   213
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   134
+             Mesprit               Psychic                                Blizzard-110           Thunder-110     Dazzling Gleam-80       Extrasensory-80                    58
+             Snorlax                Normal                                   Tackle-50            Psychic-90        Earthquake-100        Shadow Ball-80                   202
+           Hippowdon                Ground                                   Crunch-80               Bite-60           Strength-80         Rock Slide-75                    62
+            Gyarados                 Water                Flying          Waterfall-80           Strength-80               Surf-90              Scald-80                    50
+Iteration: 7
+Iteration: 8
+New fittest: -0.032754
+	Record: [0.20308483290488433, 0.08933161953727506, -0.3251700680272109]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   216
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   127
+             Mesprit               Psychic                                Blizzard-110           Thunder-110     Dazzling Gleam-80       Extrasensory-80                    68
+             Snorlax                Normal                                   Tackle-50            Psychic-90        Earthquake-100        Shadow Ball-80                   185
+           Hippowdon                Ground                                   Crunch-80               Bite-60           Strength-80         Rock Slide-75                    65
+            Gyarados                 Water                Flying          Waterfall-80           Strength-80               Surf-90              Scald-80                    67
+Iteration: 9
+Iteration: 10
+New fittest: 0.001616
+	Record: [0.22879177377892032, 0.11568123393316196, -0.34285714285714286]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   218
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   130
+             Mesprit               Psychic                                Blizzard-110           Thunder-110     Dazzling Gleam-80       Extrasensory-80                    79
+             Snorlax                Normal                                   Tackle-50        Shadow Ball-80        Earthquake-100            Psychic-90                   195
+           Hippowdon                Ground                                   Crunch-80               Bite-60           Strength-80         Rock Slide-75                    58
+            Gyarados                 Water                Flying          Waterfall-80           Strength-80               Surf-90              Scald-80                    91
+Iteration: 11
+Iteration: 12
+Iteration: 13
+Iteration: 14
+Iteration: 15
+Iteration: 16
+Iteration: 17
+Iteration: 18
+Iteration: 19
+Iteration: 20
+Iteration: 21
+Iteration: 22
+Iteration: 23
+Iteration: 24
+Iteration: 25
+New fittest: 0.039239
+	Record: [0.18508997429305912, 0.09768637532133675, -0.24353741496598638]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   194
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   118
+             Mesprit               Psychic                                Blizzard-110        Energy Ball-90            Psychic-90       Extrasensory-80                   106
+             Snorlax                Normal                                   Tackle-50            Psychic-90        Earthquake-100        Shadow Ball-80                   190
+           Hippowdon                Ground                                   Crunch-80               Bite-60           Strength-80         Rock Slide-75                    49
+            Gyarados                 Water                Flying          Waterfall-80           Strength-80               Surf-90              Scald-80                    83
+Iteration: 26
+Iteration: 27
+Iteration: 28
+Iteration: 29
+Iteration: 30
+
+
+Experiment Number 3
+--------------------
+Iteration: 1
+New fittest: -0.002894
+	Record: [0.15038560411311053, 0.05896529562982005, -0.21224489795918366]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   204
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   130
+             Mesprit               Psychic                                Blizzard-110        Energy Ball-90            Psychic-90       Extrasensory-80                   110
+             Snorlax                Normal                                   Tackle-50            Psychic-90        Earthquake-100        Shadow Ball-80                   220
+           Hippowdon                Ground                                   Crunch-80               Bite-60           Strength-80         Rock Slide-75                    56
+            Gyarados                 Water                Flying          Waterfall-80           Strength-80               Surf-90              Scald-80                    53
+Iteration: 2
+Iteration: 3
+Iteration: 4
+New fittest: 0.298389
+	Record: [0.16987951807228915, 0.21626506024096387, -0.08775510204081632]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   200
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   151
+             Mesprit               Psychic                                Blizzard-110        Energy Ball-90            Psychic-90       Extrasensory-80                    70
+             Snorlax                Normal                                   Tackle-50            Psychic-90        Earthquake-100        Shadow Ball-80                   227
+             Snorlax                Normal                             Zen Headbutt-80        Earthquake-100            Psychic-90       Focus Blast-120                   120
+            Gyarados                 Water                Flying          Waterfall-80           Strength-80               Surf-90              Scald-80                    59
+Iteration: 5
+Iteration: 6
+New fittest: 0.301824
+	Record: [0.17951807228915662, 0.23795180722891565, -0.11564625850340136]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   207
+             Snorlax                Normal                                   Crunch-80        Shadow Ball-80            Psychic-90           Ice Beam-90                   127
+             Mesprit               Psychic                                Blizzard-110        Energy Ball-90            Psychic-90       Extrasensory-80                   103
+             Snorlax                Normal                                   Tackle-50            Psychic-90        Earthquake-100        Shadow Ball-80                   216
+             Snorlax                Normal                             Zen Headbutt-80        Earthquake-100            Psychic-90       Focus Blast-120                   111
+            Gyarados                 Water                Flying          Waterfall-80           Strength-80               Surf-90              Scald-80                   112
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Iteration: 12
+Iteration: 13
+Iteration: 14
+Iteration: 15
+New fittest: 0.303910
+	Record: [0.2969879518072289, 0.18855421686746987, -0.1816326530612245]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   177
+             Snorlax                Normal                                   Tackle-50        Earthquake-100         Rock Slide-75        Brick Break-75                   248
+             Mesprit               Psychic                                Blizzard-110            Psychic-90        Energy Ball-90       Extrasensory-80                    59
+             Snorlax                Normal                                   Tackle-50        Shadow Ball-80        Earthquake-100            Psychic-90                   188
+             Snorlax                Normal                             Zen Headbutt-80        Earthquake-100            Psychic-90       Focus Blast-120                   145
+            Gyarados                 Water                Flying          Waterfall-80           Strength-80               Surf-90              Scald-80                    78
+Iteration: 16
+Iteration: 17
+Iteration: 18
+Iteration: 19
+Iteration: 20
+New fittest: 0.338739
+	Record: [0.2620481927710843, 0.22771084337349398, -0.1510204081632653]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+             Snorlax                Normal                                 Strength-80               Surf-90        Thunderbolt-90        Brick Break-75                   205
+             Snorlax                Normal                                   Tackle-50        Earthquake-100         Rock Slide-75        Brick Break-75                   220
+             Mesprit               Psychic                                Blizzard-110        Energy Ball-90            Psychic-90       Extrasensory-80                    76
+             Snorlax                Normal                                   Tackle-50        Shadow Ball-80        Earthquake-100            Psychic-90                   241
+             Snorlax                Normal                             Zen Headbutt-80        Earthquake-100            Psychic-90       Focus Blast-120                   138
+            Gyarados                 Water                Flying          Waterfall-80           Strength-80               Surf-90              Scald-80                   169
+Iteration: 21
+Iteration: 22
+Iteration: 23
+Iteration: 24
+Iteration: 25
+Iteration: 26
+Iteration: 27
+Iteration: 28
+Iteration: 29
+Iteration: 30

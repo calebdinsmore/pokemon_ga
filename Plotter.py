@@ -20,12 +20,18 @@ class Plotter(object):
         elif y > self.max_y:
             self.max_y = y
 
+    def clearPoints(self):
+        self.x_pts = []
+        self.y_pts = []
+        self.min_y = 0
+        self.max_y = 0
+
     def showPlot(self, title="Generic Plot", save_to_file=False):
         plt.xlim(self.x_pts[0], self.x_pts[-1])
         plt.ylim(self.min_y, self.max_y)
 
         plt.xticks(range(self.x_pts[0], self.x_pts[-1]))
-        plt.yticks(np.arange(-3, 3, 0.5))
+        plt.yticks(np.arange(-6, 3, 0.5))
         plt.title(title)
         plt.plot(self.x_pts, self.y_pts, linestyle="solid", marker="o", color="blue")
         if save_to_file:

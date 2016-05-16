@@ -8,6 +8,10 @@ from Plotter import Plotter
 
 import random
 import copy
+import os
+import datetime
+import time
+
 
 class PokeGA(object):
     def __init__(self, listOfOpposingTrainers=[]):
@@ -51,11 +55,11 @@ class PokeGA(object):
                 enemyTrainer.resetPokemon()
                 sim = BattleSim(trainer, enemyTrainer)
                 trainerHPPercentage, enemyHPPercentage = sim.run_battle()
-                if trainerHPPercentage > 0:
-                    trainer.record.append(1)
-                else:
-                    trainer.record.append(0)
-                trainer.fitness += trainerHPPercentage - enemyHPPercentage
+                battle_result = trainerHPPercentage - enemyHPPercentage
+                if battle_result < 0: # if a loss, multiply the negative fitness by 2
+                    battle_result *= 2
+                trainer.record.append(battle_result)
+                trainer.fitness += battle_result
 
     def compareFitnesses(self, cand_one, cand_two):
         chosen_parent = None
@@ -186,32 +190,50 @@ opposing_team_list = [first_team, second_team, third_team]
 
 pg = PokeGA(opposing_team_list)
 
-fittest_team = None
 
-results_file = open('results/Experiment_Run_Results.txt', 'w')
+experiment_dir = 'Experiment-' + datetime.datetime.now().strftime("%m-%d-%Y_%H:%M:%S")
+os.mkdir(experiment_dir)
+results_file = open(experiment_dir + '/Experiment_Run_Results.txt', 'w')
+
+overall_time_start = time.time()
 
 if pg.draw_graph:
     plotter = Plotter()
+for experiment_num in range(1, 4):
 
-for i in range(1):
-    print("Iteration: %d\n" % (i))
-    results_file.write("Iteration: %d\n" % (i))
-    this_fittest = pg.runAlgorithm(copy.deepcopy(fittest_team))
+    experiment_start = time.time()
+
+    results_file.write("\n\nExperiment Number %d\n%s\n" % (experiment_num, '-'*20))
+
+    fittest_team = None
+    for i in range(1, 31):
+        print("Iteration: %d" % (i))
+        results_file.write("Iteration: %d\n" % (i))
+
+        if fittest_team is not None:
+            this_fittest = pg.runAlgorithm(copy.deepcopy(fittest_team))
+        else:
+            this_fittest = pg.runAlgorithm()
+
+        if pg.draw_graph:
+            plotter.addPoint(i, this_fittest.fitness)
+
+        if fittest_team is None or this_fittest.fitness > fittest_team.fitness:
+            fittest_team = copy.deepcopy(this_fittest)
+            print("New fittest: %f\n\tRecord: %s\n" % (fittest_team.fitness, str(fittest_team.record)))
+            results_file.write("New fittest: %f\n\tRecord: %s\n" % (fittest_team.fitness, str(fittest_team.record)))
+            fittest_string = fittest_team.printTeam()
+            results_file.write(fittest_string)
+            fittest_team.resetPokemon()
+    results_file.write("Experiment %d duration: %f\n" % (experiment_num, time.time() - experiment_start))
+    print("Experiment %d duration: %f" % (experiment_num, time.time() - experiment_start))
+
     if pg.draw_graph:
-        plotter.addPoint(i, this_fittest.fitness)
+        plotter.showPlot(title=experiment_dir + "/Experiment-" + str(experiment_num), save_to_file=True)
+        plotter.clearPoints()
 
-    if fittest_team is None or this_fittest.fitness > fittest_team.fitness:
-        fittest_team = copy.deepcopy(this_fittest)
-        print("New fittest: %f\n\tRecord: %s\n" % (fittest_team.fitness, str(fittest_team.record)))
-        results_file.write("New fittest: %f\n\tRecord: %s\n" % (fittest_team.fitness, str(fittest_team.record)))
-        fittest_team.printTeam()
-        fittest_team.resetPokemon()
-
-
-if pg.draw_graph:
-    plotter.showPlot(title="results/Test", save_to_file=True)
-
-fittest_team.printTeam()
+    fittest_team.printTeam()
+print("Total time spent: ", time.time() - overall_time_start)
 input()
 
 # fittest_team.resetPokemon()

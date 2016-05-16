@@ -29,7 +29,8 @@ exception_moves = ["89", "94", "85", "188", "309", "348", "405", "412", "414", "
  "53", "57", "58", "280", "299", "9", "8", "428", "399", "242", "340", "19", "247", "396", "157", "430",
  "442", "398", "449", "324", "318", "539", "400", "44", "460", "225", "87", "435", "209", "585", "411", "238",
  "327", "2", "551", "257", "436", "7", "542", "421", "466", "465", "59", "441", "482", "326", "444", "231", "309",
- "211", "152", "127", "503", "61"]
+ "211", "152", "127", "503", "61", "496", "29", "163", "547", "245", "158", "34", "253", "342", "440", "482",
+ "441", "93", "60", "427", "326", "418", "429", "453", "61", "325", "352", "534"]
 
 for move in moves_to_remove:
     if move in exception_moves:
@@ -63,9 +64,9 @@ def printDebug(message, debug=True):
     if debug:
         print(message)
 
-def printMovesOfType(move_type, pokemon=None):
+def printMovesOfType(move_type=-1, pokemon=None):
     for moveKey in moveDict:
-        if moveDict[moveKey]['type'] == move_type:
+        if move_type == -1 or moveDict[moveKey]['type'] == move_type:
             if pokemon is not None and int(moveKey) in pokeDict[pokemon]['moves']:
                 print("%5s %5s %5s %20s" % (moveKey, moveDict[moveKey]['power'], moveDict[moveKey]['accuracy'], moveDict[moveKey]['name']))
             elif pokemon is None:

@@ -1,0 +1,70 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -1.945578
+	Record: [-0.5795918367346938, -0.6666666666666666, -0.6993197278911565]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Gogoat                 Grass                               Rock Slide-75        Brick Break-75         Leaf Blade-90           Strength-80                   128
+             Snorlax                Normal                                   Tackle-50         Rock Slide-75       Flamethrower-90       Focus Blast-120                   166
+           Hippowdon                Ground                                   Tackle-50         Rock Slide-75             Crunch-80               Bite-60                   220
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100         Iron Tail-100             Crunch-80                   118
+          Chandelure                 Ghost                  Fire          Heat Wave-95        Energy Ball-90       Flamethrower-90        Shadow Ball-80                   152
+           Salamence                Dragon                Flying        Brick Break-75                Cut-50        Dragon Claw-80             Crunch-80                    99
+Iteration: 2
+Iteration: 3
+New fittest: -1.527891
+	Record: [-0.21360544217687075, -0.3333333333333333, -0.9809523809523809]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+           Dragonite                Dragon                Flying                Fly-90        Brick Break-75          Blizzard-110         Steel Wing-70                    68
+             Snorlax                Normal                                   Tackle-50         Rock Slide-75       Flamethrower-90       Focus Blast-120                   183
+           Hippowdon                Ground                                   Tackle-50         Rock Slide-75             Crunch-80               Bite-60                   148
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100         Iron Tail-100             Crunch-80                    69
+             Nuzleaf                 Grass                  Dark        Energy Ball-90        Brick Break-75       Extrasensory-80                Cut-50                    15
+           Salamence                Dragon                Flying        Brick Break-75             Crunch-80        Dragon Claw-80                Cut-50                   165
+Iteration: 4
+New fittest: -1.393676
+	Record: [0.04714064914992272, -0.5414965986394558, -0.8993197278911564]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+           Dragonite                Dragon                Flying                Fly-90        Brick Break-75          Blizzard-110         Steel Wing-70                    55
+             Snorlax                Normal                                   Tackle-50         Rock Slide-75       Flamethrower-90       Focus Blast-120                   170
+           Hippowdon                Ground                                   Tackle-50         Rock Slide-75             Crunch-80               Bite-60                   147
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100         Iron Tail-100             Crunch-80                    75
+             Nuzleaf                 Grass                  Dark        Energy Ball-90        Brick Break-75       Extrasensory-80                Cut-50                    15
+           Salamence                Dragon                Flying        Brick Break-75             Crunch-80        Dragon Claw-80                Cut-50                   149
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Iteration: 12
+Iteration: 13
+Iteration: 14
+Iteration: 15
+Iteration: 16
+New fittest: -1.372789
+	Record: [0.0, -0.49795918367346936, -0.8748299319727891]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+           Dragonite                Dragon                Flying                Fly-90        Brick Break-75          Blizzard-110         Steel Wing-70                    76
+             Snorlax                Normal                                   Tackle-50         Rock Slide-75       Flamethrower-90       Focus Blast-120                   170
+           Hippowdon                Ground                                   Tackle-50         Rock Slide-75               Bite-60             Crunch-80                   111
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100         Iron Tail-100             Crunch-80                    47
+             Nuzleaf                 Grass                  Dark        Energy Ball-90        Brick Break-75       Extrasensory-80                Cut-50                     7
+           Salamence                Dragon                Flying        Brick Break-75        Dragon Claw-80                Cut-50             Crunch-80                   125
+Iteration: 17
+Iteration: 18
+New fittest: -1.349660
+	Record: [-0.10476190476190476, -0.3238095238095238, -0.9210884353741496]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+           Dragonite                Dragon                Flying                Fly-90        Brick Break-75          Blizzard-110         Steel Wing-70                    33
+             Snorlax                Normal                                   Tackle-50         Rock Slide-75       Flamethrower-90       Focus Blast-120                   173
+           Hippowdon                Ground                                   Tackle-50         Rock Slide-75             Crunch-80               Bite-60                   131
+            Garchomp                Dragon                Ground       Flamethrower-90        Earthquake-100         Iron Tail-100             Crunch-80                    97
+             Nuzleaf                 Grass                  Dark        Energy Ball-90        Brick Break-75       Extrasensory-80                Cut-50                     8
+           Salamence                Dragon                Flying        Brick Break-75        Dragon Claw-80                Cut-50             Crunch-80                   174
+Iteration: 19
+Iteration: 20
+Iteration: 21

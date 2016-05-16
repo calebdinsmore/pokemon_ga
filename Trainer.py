@@ -244,8 +244,10 @@ Enemy Pokemon in Play: %s
             return moves_possible[0][2], moves_possible[0][0]
 
     def printTeam(self):
+        total_string = ""
         header_string = "%20s  %20s  %20s  %20s  %20s  %20s  %20s  %20s" % ("Name", "Type 1", "Type 2", "Move 1", "Move 2", "Move 3", "Move 4", "Damage Dealt")
         print(header_string)
+        total_string += header_string + '\n'
         for pokemon in self.pokemon:
             poke_string = "%20s" % (pokemon.name)
             for typeKey in pokemon.types:
@@ -257,4 +259,6 @@ Enemy Pokemon in Play: %s
                 poke_string += "  %20s" % (pokemon.moves[moveKey]["name"] + "-" + str(pokemon.moves[moveKey]["power"]))
             poke_string += ("  %20s" % (" ")) * (4 - len(pokemon.moves))
             poke_string += "  %20d" % (pokemon.damage_dealt)
+            total_string += poke_string + '\n'
             print(poke_string)
+        return total_string
