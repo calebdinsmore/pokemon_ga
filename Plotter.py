@@ -20,12 +20,19 @@ class Plotter(object):
         elif y > self.max_y:
             self.max_y = y
 
-    def showPlot(self, title="Generic Plot"):
+    def showPlot(self, title="Generic Plot", save_to_file=False):
         plt.xlim(self.x_pts[0], self.x_pts[-1])
         plt.ylim(self.min_y, self.max_y)
 
         plt.xticks(range(self.x_pts[0], self.x_pts[-1]))
-        plt.yticks(np.arange(-1, 1, 0.1))
+        plt.yticks(np.arange(-3, 3, 0.5))
         plt.title(title)
         plt.plot(self.x_pts, self.y_pts, linestyle="solid", marker="o", color="blue")
-        plt.show()
+        if save_to_file:
+            text = open(title + '.txt', 'w')
+            text.write(str(self.x_pts) + '\n')
+            text.write(str(self.y_pts) + '\n')
+
+            plt.savefig(title + '.png')
+        else:
+            plt.show()

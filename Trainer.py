@@ -17,6 +17,7 @@ class Trainer(object):
         self.move_types = {}
         self.switched_last_turn = False
         self.debug = debug
+        self.record = []
 
     def createTeamFromListOfDicts(self, poke_dict_list):
         pokemon_list = []
@@ -70,6 +71,8 @@ class Trainer(object):
 
         total_type_eff = 0
         move_type = str(move_one["type"])
+        if move == '449': # If move is Judgment
+            move_type = str(pokemon_one.types[0])
         if len(pokemon_two.types) == 2:
             type_one = pokemon_two.types[0]
             type_two = pokemon_two.types[1]
@@ -80,7 +83,7 @@ class Trainer(object):
             type_one = pokemon_two.types[0]
             total_type_eff = typeDict[move_type]["offense"][str(type_one)]
 
-        if move_type in pokemon_one.types:
+        if int(move_type) in pokemon_one.types:
             STAB = 1.5
         else:
             STAB = 1
@@ -105,6 +108,10 @@ class Trainer(object):
 
         damage = (12/250) * ((attack_stat/defense_stat) * move_one["power"] + 2) * modifier
         damage = int(damage)
+        accuracy = move_one['accuracy']
+        if move != "396": # Aura Sphere--never misses
+            if random.random() > (accuracy / 100):
+                damage = 0
         return damage
 
     def get_total_health_percentage(self):

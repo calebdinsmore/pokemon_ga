@@ -45,11 +45,16 @@ class PokeGA(object):
     def calculateAndAssignFitness(self):
         for trainer in self.chromosomes:
             trainer.fitness = 0
+            trainer.record = []
             for enemyTrainer in self.list_of_opposing_trainers:
                 trainer.resetPokemon()
                 enemyTrainer.resetPokemon()
                 sim = BattleSim(trainer, enemyTrainer)
                 trainerHPPercentage, enemyHPPercentage = sim.run_battle()
+                if trainerHPPercentage > 0:
+                    trainer.record.append(1)
+                else:
+                    trainer.record.append(0)
                 trainer.fitness += trainerHPPercentage - enemyHPPercentage
 
     def compareFitnesses(self, cand_one, cand_two):
@@ -136,62 +141,78 @@ class PokeGA(object):
         if seed is not None:
             self.chromosomes.pop(-1)
             self.chromosomes.append(seed)
-        if self.draw_graph:
-            plotter = Plotter()
         self.calculateAndAssignFitness()
         while self.current_generation < self.epoch_limit and not self.checkForConvergence():
             self.performTournamentAndMating()
             self.calculateAndAssignFitness()
-            if self.draw_graph:
-                fittest = self.getFittest()
-                plotter.addPoint(self.current_generation, fittest.fitness)
 
         fittest = self.getFittest()
         # fittest.printTeam()
         # self.list_of_opposing_trainers[0].printTeam()
-        if self.draw_graph:
-            plotter.showPlot()
         # print(fittest.fitness)
         return fittest
 
 
-# team_config = {"385": ["Dazzling Gleam", "Iron Head", "Ice Punch", "Signal Beam"], "442", "382", "202", "150", "483"}
-first_team_config = [{"id": "722", "moves": ["618", "53", "57", "58"]},
-                     {"id": "722", "moves": ["618", "85", "89", "304"]},
-                     {"id": "722", "moves": ["618", "337", "412", "53"]},
-                     {"id": "722", "moves": ["618", "57", "58", "337"]},
-                     {"id": "722", "moves": ["618", "412", "85", "304"]},
-                     {"id": "722", "moves": ["618", "85", "89", "53"]}]
-second_team_config = [{"id": "483", "moves": ["53", "58", "85", "408"]},
-                     {"id": "487", "moves": ["85", "89", "94", "414"]},
-                     {"id": "150", "moves": ["53", "58", "412", "94"]},
-                     {"id": "257", "moves": ["280", "53", "89", "64"]},
-                     {"id": "491", "moves": ["58", "188", "280", "94"]},
-                     {"id": "722", "moves": ["618", "85", "89", "53"]}]
+first_team_config = [{"id": "493", "moves": ["449", "304", "70", "15"]},    # Normal
+                     {"id": "723", "moves": ["449", "280", "70", "337"]},   # Fighting
+                     {"id": "724", "moves": ["449", "19", "89", "157"]},    # Flying
+                     {"id": "725", "moves": ["449", "188", "398", "85"]},   # Poison
+                     {"id": "726", "moves": ["449", "89", "414", "430"]},   # Ground
+                     {"id": "727", "moves": ["449", "157", "280", "412"]}]  # Rock
+
+second_team_config = [{"id": "728", "moves": ["449", "404", "19", "304"]},  # Bug
+                     {"id": "729", "moves": ["449", "247", "19", "70"]},    # Ghost
+                     {"id": "730", "moves": ["449", "430", "247", "19"]},   # Steel
+                     {"id": "731", "moves": ["449", "53", "280", "58"]},    # Fire
+                     {"id": "732", "moves": ["449", "57", "430", "89"]},    # Water
+                     {"id": "733", "moves": ["449", "412", "404", "280"]}]  # Grass
+
+third_team_config = [{"id": "734", "moves": ["449", "85", "15", "398"]},    # Electric
+                     {"id": "735", "moves": ["449", "94", "414", "85"]},    # Psychic
+                     {"id": "736", "moves": ["449", "58", "19", "70"]},     # Ice
+                     {"id": "737", "moves": ["449", "337", "280", "19"]},   # Dragon
+                     {"id": "738", "moves": ["449", "399", "430", "449"]},  # Dark
+                     {"id": "739", "moves": ["449", "15", "85", "414"]}]    # Fairy
 
 first_team = Trainer(manual=False)
 second_team = Trainer(manual=False)
+third_team = Trainer(manual=False)
 
 first_team.createTeamFromListOfDicts(first_team_config)
 second_team.createTeamFromListOfDicts(second_team_config)
+third_team.createTeamFromListOfDicts(third_team_config)
 
-opposing_team_list = [first_team, second_team]
+opposing_team_list = [first_team, second_team, third_team]
 
 pg = PokeGA(opposing_team_list)
 
 fittest_team = None
 
-for i in range(30):
-    print("Iteration: ", i)
+results_file = open('results/Experiment_Run_Results.txt', 'w')
+
+if pg.draw_graph:
+    plotter = Plotter()
+
+for i in range(1):
+    print("Iteration: %d\n" % (i))
+    results_file.write("Iteration: %d\n" % (i))
     this_fittest = pg.runAlgorithm(copy.deepcopy(fittest_team))
+    if pg.draw_graph:
+        plotter.addPoint(i, this_fittest.fitness)
 
     if fittest_team is None or this_fittest.fitness > fittest_team.fitness:
         fittest_team = copy.deepcopy(this_fittest)
-        print("New fittest: ", fittest_team.fitness)
+        print("New fittest: %f\n\tRecord: %s\n" % (fittest_team.fitness, str(fittest_team.record)))
+        results_file.write("New fittest: %f\n\tRecord: %s\n" % (fittest_team.fitness, str(fittest_team.record)))
         fittest_team.printTeam()
         fittest_team.resetPokemon()
 
+
+if pg.draw_graph:
+    plotter.showPlot(title="results/Test", save_to_file=True)
+
 fittest_team.printTeam()
+input()
 
 # fittest_team.resetPokemon()
 # opposing_team_list[0].resetPokemon()

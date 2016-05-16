@@ -1,4 +1,6 @@
+# pylint: disable=C
 import json
+import copy
 
 DEBUG = False
 
@@ -23,7 +25,11 @@ pokeDict = json.loads(f_str)
 pokeList = list(pokeDict.keys())
 f.close()
 
-exception_moves = ["89", "94", "85", "188", "309", "348", "405", "412", "414", "431", "454", "533", "566", "583", "53", "57", "58", "280"]
+exception_moves = ["89", "94", "85", "188", "309", "348", "405", "412", "414", "431", "454", "533", "566", "583",
+ "53", "57", "58", "280", "299", "9", "8", "428", "399", "242", "340", "19", "247", "396", "157", "430",
+ "442", "398", "449", "324", "318", "539", "400", "44", "460", "225", "87", "435", "209", "585", "411", "238",
+ "327", "2", "551", "257", "436", "7", "542", "421", "466", "465", "59", "441", "482", "326", "444", "231", "309",
+ "211", "152", "127", "503", "61"]
 
 for move in moves_to_remove:
     if move in exception_moves:
@@ -36,12 +42,31 @@ for move in moves_to_remove:
         del moveDict[move]
 
 uberList = ['681', '491', '493', '249', '382', '383', '384', '386', '257', '649',
-            '150', '717', '716', '643', '645', '644', '658', '487', '484', '483', '722', '250', '289']
+            '150', '717', '716', '643', '645', '644', '658', '487', '484', '483', '722', '250', '289', '723', '724',
+            '725', '726', '727', '728', '729', '730', '731', '732', '733', '734', '735', '736', '737', '738', '739',
+            '486']
 
 print(pokeDict["491"]["moves"])
+
+# Generate all Arceus types
+currentType = 2
+for newId in range(723, 740):
+    newIdStr = str(newId)
+    pokeDict[newIdStr] = copy.deepcopy(pokeDict["493"])
+    pokeDict[newIdStr]['types'] = [currentType]
+    pokeDict[newIdStr]['name'] = pokeDict['493']['name'] + '-' + typeDict[str(currentType)]['name']
+    currentType += 1
 
 pokeListSansUbers = list(set(pokeList) - set(uberList))
 
 def printDebug(message, debug=True):
     if debug:
         print(message)
+
+def printMovesOfType(move_type, pokemon=None):
+    for moveKey in moveDict:
+        if moveDict[moveKey]['type'] == move_type:
+            if pokemon is not None and int(moveKey) in pokeDict[pokemon]['moves']:
+                print("%5s %5s %5s %20s" % (moveKey, moveDict[moveKey]['power'], moveDict[moveKey]['accuracy'], moveDict[moveKey]['name']))
+            elif pokemon is None:
+                print("%5s %5s %5s %20s" % (moveKey, moveDict[moveKey]['power'], moveDict[moveKey]['accuracy'], moveDict[moveKey]['name']))
