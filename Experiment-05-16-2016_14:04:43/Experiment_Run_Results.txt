@@ -1,0 +1,98 @@
+
+
+Experiment Number 1
+--------------------
+Iteration: 1
+New fittest: -1.782313
+	Record: [-0.7564625850340136, -0.7156462585034014, -0.31020408163265306]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Raikou              Electric                                   Crunch-80        Thunderbolt-90          Discharge-80              Round-60                   178
+            Stunfisk                Ground              Electric           Thunder-110             Tackle-50              Spark-65        Earth Power-90                   132
+          Escavalier                   Bug                 Steel          X-Scissor-80        Energy Ball-90          Megahorn-120              Round-60                   252
+               Entei                  Fire                                     Bite-60       Flamethrower-90        Shadow Ball-80       Extrasensory-80                   124
+              Gengar                 Ghost                Poison        Thunderbolt-90      Thunder Punch-75        Shadow Ball-80     Dazzling Gleam-80                    50
+              Emboar                  Fire              Fighting        Stone Edge-100              Scald-80       Focus Blast-120        Brick Break-75                   208
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+New fittest: -1.668027
+	Record: [-0.7551020408163265, -0.6489795918367347, -0.2639455782312925]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Raikou              Electric                                    Round-60             Crunch-80          Discharge-80        Thunderbolt-90                   149
+            Stunfisk                Ground              Electric           Thunder-110             Tackle-50              Spark-65        Earth Power-90                   132
+          Escavalier                   Bug                 Steel          X-Scissor-80        Energy Ball-90          Megahorn-120              Round-60                   317
+               Entei                  Fire                                     Bite-60       Flamethrower-90        Shadow Ball-80       Extrasensory-80                   221
+          Lickilicky                Normal                             Flamethrower-90          Blizzard-110               Slam-80        Shadow Ball-80                    82
+                 Muk                Poison                             Focus Blast-120         Poison Jab-80        Thunderbolt-90       Shadow Punch-60                   180
+Iteration: 9
+New fittest: -1.655782
+	Record: [-0.7442176870748299, -0.6435374149659864, -0.2680272108843537]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Raikou              Electric                                   Crunch-80        Thunderbolt-90          Discharge-80              Round-60                   168
+            Stunfisk                Ground              Electric             Tackle-50        Earth Power-90              Spark-65           Thunder-110                    95
+          Escavalier                   Bug                 Steel          X-Scissor-80        Energy Ball-90          Megahorn-120              Round-60                   244
+               Entei                  Fire                                     Bite-60       Flamethrower-90        Shadow Ball-80       Extrasensory-80                    94
+          Lickilicky                Normal                             Flamethrower-90          Blizzard-110               Slam-80        Shadow Ball-80                    91
+                 Muk                Poison                             Shadow Punch-60       Focus Blast-120        Thunderbolt-90         Poison Jab-80                   160
+Iteration: 10
+Iteration: 11
+Iteration: 12
+Iteration: 13
+Iteration: 14
+Iteration: 15
+New fittest: -1.635374
+	Record: [-0.5619047619047619, -0.45034013605442175, -0.6231292517006802]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Raikou              Electric                                   Crunch-80          Discharge-80        Thunderbolt-90              Round-60                   121
+           Excadrill                Ground                 Steel        Brick Break-75           Strength-80        Shadow Claw-70            Scratch-40                   243
+          Escavalier                   Bug                 Steel          X-Scissor-80        Energy Ball-90          Megahorn-120              Round-60                   239
+               Entei                  Fire                                     Bite-60       Flamethrower-90        Shadow Ball-80       Extrasensory-80                   110
+          Lickilicky                Normal                                    Round-60        Brick Break-75           Thunder-110         Rock Slide-75                    56
+                 Muk                Poison                             Shadow Punch-60       Focus Blast-120        Thunderbolt-90         Poison Jab-80                   172
+Iteration: 16
+New fittest: -1.578231
+	Record: [-0.13197278911564625, -0.9210884353741496, -0.5251700680272109]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Raikou              Electric                                    Round-60             Crunch-80          Discharge-80        Thunderbolt-90                    99
+           Excadrill                Ground                 Steel        Brick Break-75           Strength-80        Shadow Claw-70            Scratch-40                   146
+          Escavalier                   Bug                 Steel          X-Scissor-80        Energy Ball-90          Megahorn-120              Round-60                   192
+               Entei                  Fire                                     Bite-60       Flamethrower-90        Shadow Ball-80       Extrasensory-80                   170
+                 Mew               Psychic                                    Scald-80       Focus Blast-120        Sludge Bomb-90     Dazzling Gleam-80                    80
+                 Muk                Poison                             Shadow Punch-60       Focus Blast-120        Thunderbolt-90         Poison Jab-80                   186
+Iteration: 17
+New fittest: -1.419048
+	Record: [-0.1510204081632653, -0.5034013605442177, -0.7646258503401361]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Raikou              Electric                                    Round-60             Crunch-80        Thunderbolt-90          Discharge-80                   163
+           Excadrill                Ground                 Steel        Brick Break-75           Strength-80        Shadow Claw-70            Scratch-40                   203
+          Escavalier                   Bug                 Steel          X-Scissor-80        Energy Ball-90          Megahorn-120              Round-60                   209
+               Entei                  Fire                                     Bite-60       Flamethrower-90        Shadow Ball-80       Extrasensory-80                    94
+                 Mew               Psychic                                    Scald-80       Focus Blast-120        Sludge Bomb-90     Dazzling Gleam-80                    85
+                 Muk                Poison                             Shadow Punch-60       Focus Blast-120        Thunderbolt-90         Poison Jab-80                   147
+Iteration: 18
+Iteration: 19
+Iteration: 20
+Iteration: 21
+Iteration: 22
+Iteration: 23
+Iteration: 24
+Iteration: 25
+Iteration: 26
+Iteration: 27
+New fittest: -1.382313
+	Record: [-0.23673469387755103, -0.5972789115646259, -0.5482993197278911]
+                Name                Type 1                Type 2                Move 1                Move 2                Move 3                Move 4          Damage Dealt
+              Raikou              Electric                                   Crunch-80          Discharge-80        Thunderbolt-90              Round-60                   110
+           Excadrill                Ground                 Steel        Brick Break-75           Strength-80        Shadow Claw-70            Scratch-40                   271
+           Stoutland                Normal                                   Crunch-80             Tackle-50               Surf-90        Thunderbolt-90                   107
+             Snorlax                Normal                                   Tackle-50           Ice Beam-90        Earthquake-100              Round-60                   162
+                 Mew               Psychic                                    Scald-80       Focus Blast-120        Sludge Bomb-90     Dazzling Gleam-80                    75
+                 Muk                Poison                             Focus Blast-120        Thunderbolt-90         Poison Jab-80       Shadow Punch-60                   187
+Iteration: 28
+Iteration: 29
+Iteration: 30
+Experiment 1 duration: 4754.342927
